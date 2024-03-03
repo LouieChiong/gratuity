@@ -10,11 +10,10 @@
         <meta property="og:description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works." />
         <meta property="og:image" content="images/logo.png" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-
         @vite([
-            'resources/css/app.css',
+            'resources/css/bootstrap.min.css',
+            'resources/css/bootstrap-icons.css',
+            'resources/css/template.css',
         ])
     </head>
 
@@ -67,7 +66,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="/images/slide/image_1.jpg" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{public_path('images/slide/image_1.jpg')}}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -76,7 +75,7 @@
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
 
-                                        <img src="{{ url('images/slide/image_2.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('images/slide/image_2.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -84,7 +83,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ url('images/slide/image_3.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('images/slide/image_3.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -92,7 +91,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ url('images/slide/image_4.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('images/slide/image_4.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
                                 </div>
 
@@ -122,12 +121,6 @@
 
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
-                                <p> {{ url('/images/slide/image_2.jpg') }}</p>
-                                <p> images/slide/image_2.jpg</p>
-                                <p> {{ file_exists('/images/slide/image_2.jpg')  ? " true": "false"}}</p>
-                                <p> {{ file_exists('public/images/slide/image_2.jpg')  ? " true": "false"}}</p>
-                                <p> {{ file_exists(public_path('/images/slide/image_2.jpg')) ? " true": "false" }}</p>
-                                <p> {{ file_exists(public_path('images/slide/image_2.jpg')) ? " true": "false" }}</p>
                                 <a href="{{ route('publishing') }}" class="d-block">
                                     <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
@@ -299,14 +292,13 @@
             </div>
         </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js" integrity="sha512-QABeEm/oYtKZVyaO8mQQjePTPplrV8qoT7PrwHDJCBLqZl5UmuPi3APEcWwtTNOiH24psax69XPQtEo5dAkGcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
         @vite([
-            'resources/js/app.js',
+            'resources/js/bootstrap.min.js',
+            'resources/js/click-scroll.js',
+            'resources/js/counter.js',
+            'resources/js/custom.js',
+            'resources/js/jquery.min.js',
+            'resources/js/jquery.sticky.js',
         ])
-
     </body>
 </html>

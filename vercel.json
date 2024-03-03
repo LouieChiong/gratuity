@@ -6,14 +6,16 @@
     },
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/" },
-        { "src": "/resources/(.*)", "dest": "/public/resources/" },
-        { "src": "/favicon/(.*)", "dest": "/public/favicon/" },
-        { "src": "/storage/app/(.*)", "dest": "/storage/app/" },
-        { "src": "/storage/(.*)", "dest": "/storage/" },
+        { "src": "/resources/css/(.*)", "dest": "/public/resources/css/" },
+        { "src": "/resources/js/(.*)", "dest": "/public/resources/js/" },
         { "src": "/public/fonts/(.*)", "dest": "/public/fonts/" },
+        { "src": "/public/fonts/Metropolis/(.*)", "dest": "/public/fonts/Metropolis/" },
         { "src": "/public/images/avatar/(.*)", "dest": "/public/images/avatar/" },
         { "src": "/public/images/slide/(.*)", "dest": "/public/images/slide/" },
         { "src": "/public/images/icons/(.*)", "dest": "/public/images/icons/" },
+        { "src": "/public/images/causes/(.*)", "dest": "/public/images/causes/" },
+        { "src": "/public/images/news/(.*)", "dest": "/public/images/news/" },
+        { "src": "/public/images/(.*)", "dest": "/public/images/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {

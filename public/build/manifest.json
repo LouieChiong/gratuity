@@ -1,12 +1,47 @@
 {
-  "resources/css/app.css": {
-    "file": "assets/app-BrzMWz_H.css",
-    "src": "resources/css/app.css",
+  "resources/css/bootstrap-icons.css": {
+    "file": "assets/bootstrap-icons-CxXMn75A.css",
+    "src": "resources/css/bootstrap-icons.css",
     "isEntry": true
   },
-  "resources/js/app.js": {
-    "file": "assets/app-CjTy7FTl.js",
-    "src": "resources/js/app.js",
+  "resources/css/bootstrap.min.css": {
+    "file": "assets/bootstrap-B8k6xkrH.css",
+    "src": "resources/css/bootstrap.min.css",
+    "isEntry": true
+  },
+  "resources/css/template.css": {
+    "file": "assets/template-BrzMWz_H.css",
+    "src": "resources/css/template.css",
+    "isEntry": true
+  },
+  "resources/js/bootstrap.min.js": {
+    "file": "assets/bootstrap.min-ZL6B1r2z.js",
+    "src": "resources/js/bootstrap.min.js",
+    "isEntry": true
+  },
+  "resources/js/click-scroll.js": {
+    "file": "assets/click-scroll-rZRvKMV5.js",
+    "src": "resources/js/click-scroll.js",
+    "isEntry": true
+  },
+  "resources/js/counter.js": {
+    "file": "assets/counter-Bw56aSdp.js",
+    "src": "resources/js/counter.js",
+    "isEntry": true
+  },
+  "resources/js/custom.js": {
+    "file": "assets/custom-DUaC29yI.js",
+    "src": "resources/js/custom.js",
+    "isEntry": true
+  },
+  "resources/js/jquery.min.js": {
+    "file": "assets/jquery.min-rkPHN7aA.js",
+    "src": "resources/js/jquery.min.js",
+    "isEntry": true
+  },
+  "resources/js/jquery.sticky.js": {
+    "file": "assets/jquery.sticky-BZEgNNrb.js",
+    "src": "resources/js/jquery.sticky.js",
     "isEntry": true
   }
 }
