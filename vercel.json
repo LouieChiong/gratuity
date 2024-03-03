@@ -11,7 +11,7 @@
         { "src": "/storage/app/(.*)", "dest": "/storage/app/" },
         { "src": "/storage/(.*)", "dest": "/storage/" },
         { "src": "/public/fonts/(.*)", "dest": "/public/fonts/" },
-        { "src": "/public/images/(.*)", "dest": "/public/fonts/" },
+        { "src": "/public/images/(.*)", "dest": "/public/images/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
