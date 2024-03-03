@@ -16,6 +16,13 @@
         { "src": "/public/images/causes/(.*)", "dest": "/public/images/causes/" },
         { "src": "/public/images/news/(.*)", "dest": "/public/images/news/" },
         { "src": "/public/images/(.*)", "dest": "/public/images/" },
+
+        { "src": "/storage/images/avatar/(.*)", "dest": "/public/images/avatar/" },
+        { "src": "/storage/images/slide/(.*)", "dest": "/public/images/slide/" },
+        { "src": "/storage/images/icons/(.*)", "dest": "/public/images/icons/" },
+        { "src": "/storage/images/causes/(.*)", "dest": "/public/images/causes/" },
+        { "src": "/storage/images/news/(.*)", "dest": "/public/images/news/" },
+        { "src": "/storage/images/(.*)", "dest": "/public/images/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
