@@ -10,18 +10,17 @@
         <meta property="og:description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works." />
         <meta property="og:image" content="images/logo.png" />
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ url('css/bootstrap-icons.css')}}" rel="stylesheet">
-        <link href="{{ asset('css/templatemo-kind-heart-charity.css')}}" rel="stylesheet">
+        <link href="{{ public_path('css/bootstrap.min.css')}}" rel="stylesheet">
+        <link href="{{ public_path('css/bootstrap-icons.css')}}" rel="stylesheet">
+        <link href="{{ public_path('css/templatemo-kind-heart-charity.css')}}" rel="stylesheet">
     </head>
 
     <body id="section_1 position-relative">
-
+        @dd(file_exists('css/bootstrap.min.css'), file_exists(public_path('css/bootstrap.min.css')),file_exists('public/css/bootstrap.min.css'), )
         <nav class="navbar navbar-expand-lg bg-light shadow-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="public/images/logo.png" class="logo img-fluid">
-                    <img src="/images/logo.png" alt="" />
+                    <img src="{{ storage_path('images/logo.png')}}" class="logo img-fluid">
                     <span>
                         GRATUITY
                     </span>
@@ -65,7 +64,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ mix('images/slide/image_1.jpg')}}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('images/slide/image_1.jpg')}}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -73,7 +72,7 @@
                                             <h1 class="texst-white">Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ mix('images/slide/image_2.jpg')}}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('images/slide/image_2.jpg')}}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -81,7 +80,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ mix('images/slide/image_3.jpg')}}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('images/slide/image_3.jpg')}}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
