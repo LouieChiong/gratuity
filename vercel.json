@@ -6,10 +6,7 @@
     },
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/" },
-        { "src": "/resources/css/(.*)", "dest": "/public/css/" },
-        { "src": "/resources/js/(.*)", "dest": "/public/js/" },
-        { "src": "/resources/fonts/(.*)", "dest": "/public/fonts/" },
-        { "src": "/resources/images/(.*)", "dest": "/public/images/" },
+        { "src": "/resources/(.*)", "dest": "/public/resources/" },
         { "src": "/favicon/(.*)", "dest": "/public/favicon/" },
         { "src": "/storage/app/(.*)", "dest": "/storage/app/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
