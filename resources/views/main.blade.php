@@ -16,11 +16,10 @@
     </head>
 
     <body id="section_1 position-relative">
-        @dd(file_exists('css/bootstrap.min.css'), file_exists(public_path('css/bootstrap.min.css')),file_exists('public/css/bootstrap.min.css'), )
         <nav class="navbar navbar-expand-lg bg-light shadow-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ storage_path('images/logo.png')}}" class="logo img-fluid">
+                    <img src="{{ public_path('images/logo.png')}}" class="logo img-fluid">
                     <span>
                         GRATUITY
                     </span>
