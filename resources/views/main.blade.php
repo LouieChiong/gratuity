@@ -66,7 +66,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{storage_path('images/slide/image_1.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                        <img src="/images/slide/image_1.jpg" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -75,7 +75,7 @@
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
 
-                                        <img src="{{ storage_path('/images/slide/image_2.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                        <img src="/images/slide/image_2.jpg" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -118,6 +118,7 @@
                         <div class="col-lg-10 col-12 text-center mx-auto">
                             <h2 class="mb-5">We help you with</h2>
                         </div>
+                        <p>{{file_exists('/images/slide/image_1.jpg') ? "true" : 'false'}}</p>
                         <p>{{file_exists(public_path('/images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
                         <p>{{file_exists(url('/images/slide/image_1.jpg'))  ? "true" : 'false'}}</p>
                         <p>{{file_exists(public_path('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
