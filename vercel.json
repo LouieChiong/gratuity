@@ -9,11 +9,13 @@
         { "src": "/resources/(.*)", "dest": "/public/resources/" },
         { "src": "/favicon/(.*)", "dest": "/public/favicon/" },
         { "src": "/storage/app/(.*)", "dest": "/storage/app/" },
+        { "src": "/public/fonts/(.*)", "dest": "/public/fonts/" },
+        { "src": "/public/images/(.*)", "dest": "/public/images/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
         "APP_NAME": "Gratuity",
-        "APP_ENV": "production",
+        "APP_ENV": "Production",
         "APP_DEBUG": "true",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
