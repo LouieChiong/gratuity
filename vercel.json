@@ -5,10 +5,13 @@
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
+        { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/resources/css/(.*)", "dest": "/public/css/" },
         { "src": "/resources/js/(.*)", "dest": "/public/js/" },
         { "src": "/resources/fonts/(.*)", "dest": "/public/fonts/" },
         { "src": "/resources/images/(.*)", "dest": "/public/images/" },
+        { "src": "/favicon/(.*)", "dest": "/public/favicon/" },
+        { "src": "/storage/app/(.*)", "dest": "/storage/app/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
