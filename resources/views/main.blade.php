@@ -125,7 +125,9 @@
                                 <p> {{ url('/images/slide/image_2.jpg') }}</p>
                                 <p> images/slide/image_2.jpg</p>
                                 <p> {{ file_exists('/images/slide/image_2.jpg')  ? " true": "false"}}</p>
+                                <p> {{ file_exists('public/images/slide/image_2.jpg')  ? " true": "false"}}</p>
                                 <p> {{ file_exists(Storage::url('/images/slide/image_2.jpg')) ? " true": "false" }}</p>
+
                                 <a href="{{ route('publishing') }}" class="d-block">
                                     <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
