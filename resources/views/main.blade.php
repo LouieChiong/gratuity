@@ -20,7 +20,8 @@
         <nav class="navbar navbar-expand-lg bg-light shadow-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="images/logo.png" class="logo img-fluid">
+                    <img src="public/images/logo.png" class="logo img-fluid">
+                    <img src="/images/logo.png" alt="" />
                     <span>
                         GRATUITY
                     </span>
