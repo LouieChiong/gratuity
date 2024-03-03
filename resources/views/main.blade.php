@@ -10,9 +10,9 @@
         <meta property="og:description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works." />
         <meta property="og:image" content="images/logo.png" />
 
-        <link href="{{ mix('css/bootstrap.min.css')}}" rel="stylesheet">
-        <link href="{{ mix('css/bootstrap-icons.css')}}" rel="stylesheet">
-        <link href="{{ mix('css/templatemo-kind-heart-charity.css')}}" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ url('css/bootstrap-icons.css')}}" rel="stylesheet">
+        <link href="{{ assets('css/templatemo-kind-heart-charity.css')}}" rel="stylesheet">
     </head>
 
     <body id="section_1 position-relative">
