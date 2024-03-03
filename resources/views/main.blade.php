@@ -12,7 +12,7 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="{{ url('css/bootstrap-icons.css')}}" rel="stylesheet">
-        <link href="{{ assets('css/templatemo-kind-heart-charity.css')}}" rel="stylesheet">
+        <link href="{{ asset('css/templatemo-kind-heart-charity.css')}}" rel="stylesheet">
     </head>
 
     <body id="section_1 position-relative">
