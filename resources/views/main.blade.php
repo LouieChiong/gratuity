@@ -66,7 +66,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{public_path('images/slide/image_1.jpg')}}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('/images/slide/image_1.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -75,7 +75,7 @@
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
 
-                                        <img src="{{ public_path('images/slide/image_2.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ public_path('/images/slide/image_2.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
