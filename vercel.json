@@ -4,6 +4,15 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"},
+        { "source": "/public/images/avatar/(.*)", "destination": "/public/images/avatar/" },
+        { "source": "/public/images/slide/(.*)", "destination": "/public/images/slide/" },
+        { "source": "/public/images/icons/(.*)", "destination": "/public/images/icons/" },
+        { "source": "/public/images/causes/(.*)", "destination": "/public/images/causes/" },
+        { "source": "/public/images/news/(.*)", "destination": "/public/images/news/" },
+        { "source": "/public/images/(.*)", "destination": "/public/images/" }
+    ],
     "routes": [
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/resources/css/(.*)", "dest": "/public/resources/css/" },
