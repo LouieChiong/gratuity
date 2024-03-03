@@ -1,96 +1,12 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-l0sNRNKZ.js",
+    "file": "assets/app-BrzMWz_H.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
-  "resources/css/bootstrap-icons.css": {
-    "file": "assets/bootstrap-icons-JxPHKZpZ.css",
-    "src": "resources/css/bootstrap-icons.css",
-    "isEntry": true
-  },
-  "resources/css/bootstrap.min.css": {
-    "file": "assets/bootstrap-B8k6xkrH.css",
-    "src": "resources/css/bootstrap.min.css",
-    "isEntry": true
-  },
-  "resources/css/template.css": {
-    "file": "assets/template-BKx7pYql.css",
-    "src": "resources/css/template.css",
-    "isEntry": true
-  },
-  "resources/fonts/Metropolis/Metropolis-Bold.woff": {
-    "file": "assets/Metropolis-Bold-DHCv3FxL.woff",
-    "src": "resources/fonts/Metropolis/Metropolis-Bold.woff"
-  },
-  "resources/fonts/Metropolis/Metropolis-Bold.woff2": {
-    "file": "assets/Metropolis-Bold-B9giEGus.woff2",
-    "src": "resources/fonts/Metropolis/Metropolis-Bold.woff2"
-  },
-  "resources/fonts/Metropolis/Metropolis-Light.woff": {
-    "file": "assets/Metropolis-Light-Dz8zaqb7.woff",
-    "src": "resources/fonts/Metropolis/Metropolis-Light.woff"
-  },
-  "resources/fonts/Metropolis/Metropolis-Light.woff2": {
-    "file": "assets/Metropolis-Light-BDZtXPRL.woff2",
-    "src": "resources/fonts/Metropolis/Metropolis-Light.woff2"
-  },
-  "resources/fonts/Metropolis/Metropolis-Regular.woff": {
-    "file": "assets/Metropolis-Regular-BNooiQy8.woff",
-    "src": "resources/fonts/Metropolis/Metropolis-Regular.woff"
-  },
-  "resources/fonts/Metropolis/Metropolis-Regular.woff2": {
-    "file": "assets/Metropolis-Regular-0OQ2xiRT.woff2",
-    "src": "resources/fonts/Metropolis/Metropolis-Regular.woff2"
-  },
-  "resources/fonts/Metropolis/Metropolis-SemiBold.woff": {
-    "file": "assets/Metropolis-SemiBold-BUZAoeQT.woff",
-    "src": "resources/fonts/Metropolis/Metropolis-SemiBold.woff"
-  },
-  "resources/fonts/Metropolis/Metropolis-SemiBold.woff2": {
-    "file": "assets/Metropolis-SemiBold-hK0B45PW.woff2",
-    "src": "resources/fonts/Metropolis/Metropolis-SemiBold.woff2"
-  },
-  "resources/fonts/bootstrap-icons.woff": {
-    "file": "assets/bootstrap-icons-DEv71vJw.woff",
-    "src": "resources/fonts/bootstrap-icons.woff"
-  },
-  "resources/images/different-people-doing-volunteer-work.jpg": {
-    "file": "assets/different-people-doing-volunteer-work-D2nBt-BO.jpg",
-    "src": "resources/images/different-people-doing-volunteer-work.jpg"
-  },
-  "resources/images/news/close-up-volunteer-oganizing-stuff-donation.jpg": {
-    "file": "assets/close-up-volunteer-oganizing-stuff-donation-0Fj1lLcp.jpg",
-    "src": "resources/images/news/close-up-volunteer-oganizing-stuff-donation.jpg"
-  },
-  "resources/js/bootstrap.min.js": {
-    "file": "assets/bootstrap.min-ZL6B1r2z.js",
-    "src": "resources/js/bootstrap.min.js",
-    "isEntry": true
-  },
-  "resources/js/click-scroll.js": {
-    "file": "assets/click-scroll-rZRvKMV5.js",
-    "src": "resources/js/click-scroll.js",
-    "isEntry": true
-  },
-  "resources/js/counter.js": {
-    "file": "assets/counter-Bw56aSdp.js",
-    "src": "resources/js/counter.js",
-    "isEntry": true
-  },
-  "resources/js/custom.js": {
-    "file": "assets/custom-DUaC29yI.js",
-    "src": "resources/js/custom.js",
-    "isEntry": true
-  },
-  "resources/js/jquery.min.js": {
-    "file": "assets/jquery.min-rkPHN7aA.js",
-    "src": "resources/js/jquery.min.js",
-    "isEntry": true
-  },
-  "resources/js/jquery.sticky.js": {
-    "file": "assets/jquery.sticky-BZEgNNrb.js",
-    "src": "resources/js/jquery.sticky.js",
+  "resources/js/app.js": {
+    "file": "assets/app-CjTy7FTl.js",
+    "src": "resources/js/app.js",
     "isEntry": true
   }
 }

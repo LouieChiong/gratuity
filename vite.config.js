@@ -6,15 +6,7 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
-                'resources/css/bootstrap-icons.css',
-                'resources/css/bootstrap.min.css',
-                'resources/css/template.css',
-                'resources/js/bootstrap.min.js',
-                'resources/js/click-scroll.js',
-                'resources/js/counter.js',
-                'resources/js/custom.js',
-                'resources/js/jquery.min.js',
-                'resources/js/jquery.sticky.js'
+                'resources/js/app.js',
             ],
             refresh: true,
         }),

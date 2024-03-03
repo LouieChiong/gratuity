@@ -1,1 +1,0 @@
-(function(o){jQuery(".counter-thumb").appear(function(){jQuery(".counter-number").countTo()}),o(".smoothscroll").click(function(){var r=o(this).attr("href"),t=o(r),e=o(".navbar").height();return a(t,e),!1;function a(n,l){var c=n.offset(),u=c.top,f=u-l;o("body,html").animate({scrollTop:f},300)}})})(window.jQuery);
