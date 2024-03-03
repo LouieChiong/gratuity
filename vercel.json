@@ -11,7 +11,9 @@
         { "src": "/storage/app/(.*)", "dest": "/storage/app/" },
         { "src": "/storage/(.*)", "dest": "/storage/" },
         { "src": "/public/fonts/(.*)", "dest": "/public/fonts/" },
-        { "src": "/public/images/(.*)", "dest": "/public/images/" },
+        { "src": "/public/images/avatar/(.*)", "dest": "/public/images/avatar/" },
+        { "src": "/public/images/slide/(.*)", "dest": "/public/images/slide/" },
+        { "src": "/public/images/icons/(.*)", "dest": "/public/images/icons/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "env": {
