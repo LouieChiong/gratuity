@@ -264,7 +264,7 @@
                         <h5 class="site-footer-title mb-3 text-white">Contact Information</h5>
                         <p class="text-white mb-2">
                             <i class="bi-envelope me-2"></i>
-                            <span>bpreston@gratuityglobal.org</span>
+                            <span>info@gratuityglobal.org</span>
                         </p>
                         <p class="text-white mb-2">
                             <i class="bi-telephone me-2"></i>
