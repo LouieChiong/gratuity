@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="icon" href="images/logo.ico">
+        <link rel="icon" href="{{ Vite::asset('resources/images/logo.ico')}}">
         <title>Gratuity - Digital Marketing and Pulishing</title>
         <meta name="description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works."/>
         <meta charset="utf-8">
@@ -10,11 +10,11 @@
         <meta property="og:description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works." />
         <meta property="og:image" content="images/logo.png" />
 
-        <!-- CSS FILES -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-
+        @vite([
+            'resources/css/bootstrap.min.css',
+            'resources/css/bootstrap-icons.css',
+            'resources/css/template.css',
+        ])
     </head>
 
     <body id="section_1">
@@ -64,7 +64,7 @@
                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center" style="height: 400px !important;">
                                 <a href="#" class="d-block">
-                                    <img src="images/icons/virtuoso.png" class="featured-block-image img-fluid" alt="" style="height: 80px !important;">
+                                    <img src="{{ Vite::asset('resources/images/icons/virtuoso.png') }}" class="featured-block-image img-fluid" alt="" style="height: 80px !important;">
                                     <p class="featured-block-text"><strong>FOUNDATIONAL</strong> </p>
                                 </a>
                                 <p style="text-align: justify;">
@@ -76,7 +76,7 @@
                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center" style="height: 400px !important;">
                                 <a href="#" class="d-block">
-                                    <img src="images/icons/virtuoso.png" class="featured-block-image img-fluid" alt="" style="height: 80px !important;">
+                                    <img src="{{ Vite::asset('resources/images/icons/virtuoso.png') }}" class="featured-block-image img-fluid" alt="" style="height: 80px !important;">
                                     <p class="featured-block-text"><strong>COMPETENT</strong> </p>
                                 </a>
                                 <p style="text-align: justify;">
@@ -87,7 +87,7 @@
                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center" style="height: 400px !important;">
                                 <a href="#" class="d-block">
-                                    <img src="images/icons/virtuoso.png" class="featured-block-image img-fluid" alt="" style="height: 80px !important;">
+                                    <img src="{{ Vite::asset('resources/images/icons/virtuoso.png') }}" class="featured-block-image img-fluid" alt="" style="height: 80px !important;">
                                     <p class="featured-block-text"><strong>VIRTUOSO</strong> </p>
                                 </a>
                                 <p style="text-align: justify;">
@@ -103,7 +103,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12">
-                        <!-- Content for the first column goes here -->
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-12 text-end">
@@ -135,12 +134,13 @@
             </div>
         </footer>
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/counter.js"></script>
-        <script src="js/custom.js"></script>
-
+        @vite([
+            'resources/js/bootstrap.min.js',
+            'resources/js/click-scroll.js',
+            'resources/js/counter.js',
+            'resources/js/custom.js',
+            'resources/js/jquery.min.js',
+            'resources/js/jquery.sticky.js',
+        ])
     </body>
 </html>

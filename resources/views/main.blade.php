@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <link rel="icon" href="images/logo.ico">
+        <link rel="icon" href="{{ Vite::asset('resources/images/logo.ico')}}">
         <title>Gratuity - Digital Marketing and Pulishing</title>
         <meta name="description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works."/>
         <meta charset="utf-8">
@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-lg bg-light shadow-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="images/logo.png" class="logo img-fluid">
+                    <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid">
                     <span>
                         GRATUITY
                     </span>
@@ -66,7 +66,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="/images/slide/image_1.jpg" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ Vite::asset('resources/images/slide/image_1.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -75,7 +75,7 @@
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
 
-                                        <img src="/images/slide/image_2.jpg" class="carousel-image img-fluid" alt="...">
+                                        <img src="{{ Vite::asset('resources/images/slide/image_2.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 
                                     <div class="carousel-item">
@@ -83,16 +83,14 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ public_path('images/slide/image_3.jpg') }}" class="carousel-image img-fluid" alt="...">
-                                    </div>
+                                        <img src="{{ Vite::asset('resources/images/slide/image_3.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
 
                                     <div class="carousel-item">
                                         <div style="position:absolute; background-color: rgba(122, 14, 164, 0.5); padding:20px 50px 20px 50px; color: white; bottom:20px; right:40px; ">
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ public_path('images/slide/image_4.jpg') }}" class="carousel-image img-fluid" alt="...">
-                                    </div>
+                                        <img src="{{ Vite::asset('resources/images/slide/image_4.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
                                 </div>
 
                                 <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
@@ -118,28 +116,11 @@
                         <div class="col-lg-10 col-12 text-center mx-auto">
                             <h2 class="mb-5">We help you with</h2>
                         </div>
-                        {{-- <p>{{file_exists('/images/slide/image_1.jpg') ? "true" : 'false'}}</p>
-                        <p>{{file_exists(public_path('/images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
-                        <p>{{file_exists(url('/images/slide/image_1.jpg'))  ? "true" : 'false'}}</p>
-                        <p>{{file_exists(public_path('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
-                        <p>{{file_exists(url('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
-                        <p>{{file_exists(storage_path('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
-                        <p>{{file_exists(storage_path('/images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
- --}}
-
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
                                 <a href="{{ route('publishing') }}" class="d-block">
-                                    <img src="/images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{public_path('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{public_path('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{url('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{storage_path('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{storage_path('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{asset('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <img src="{{Vite::asset('resources/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{ Vite::asset('resources/images/icons/publishing.png') }}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
 
-                                    {{-- <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;"> --}}
                                     <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
                                 </a>
                             </div>
@@ -148,7 +129,7 @@
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
                                 <a href="{{ route('marketing') }}" class="d-block">
-                                    <img src="images/icons/marketing_1.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{ Vite::asset('resources/images/icons/marketing_1.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <p class="featured-block-text"><strong>MARKETING</strong> </p>
                                 </a>
                             </div>

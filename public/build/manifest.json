@@ -1,6 +1,6 @@
 {
   "resources/css/bootstrap-icons.css": {
-    "file": "assets/bootstrap-icons-CxXMn75A.css",
+    "file": "assets/bootstrap-icons-JxPHKZpZ.css",
     "src": "resources/css/bootstrap-icons.css",
     "isEntry": true
   },
@@ -10,9 +10,49 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-C6AUPhSR.css",
+    "file": "assets/template-BKx7pYql.css",
     "src": "resources/css/template.css",
     "isEntry": true
+  },
+  "resources/fonts/Metropolis/Metropolis-Bold.woff": {
+    "file": "assets/Metropolis-Bold-DHCv3FxL.woff",
+    "src": "resources/fonts/Metropolis/Metropolis-Bold.woff"
+  },
+  "resources/fonts/Metropolis/Metropolis-Bold.woff2": {
+    "file": "assets/Metropolis-Bold-B9giEGus.woff2",
+    "src": "resources/fonts/Metropolis/Metropolis-Bold.woff2"
+  },
+  "resources/fonts/Metropolis/Metropolis-Light.woff": {
+    "file": "assets/Metropolis-Light-Dz8zaqb7.woff",
+    "src": "resources/fonts/Metropolis/Metropolis-Light.woff"
+  },
+  "resources/fonts/Metropolis/Metropolis-Light.woff2": {
+    "file": "assets/Metropolis-Light-BDZtXPRL.woff2",
+    "src": "resources/fonts/Metropolis/Metropolis-Light.woff2"
+  },
+  "resources/fonts/Metropolis/Metropolis-Regular.woff": {
+    "file": "assets/Metropolis-Regular-BNooiQy8.woff",
+    "src": "resources/fonts/Metropolis/Metropolis-Regular.woff"
+  },
+  "resources/fonts/Metropolis/Metropolis-Regular.woff2": {
+    "file": "assets/Metropolis-Regular-0OQ2xiRT.woff2",
+    "src": "resources/fonts/Metropolis/Metropolis-Regular.woff2"
+  },
+  "resources/fonts/Metropolis/Metropolis-SemiBold.woff": {
+    "file": "assets/Metropolis-SemiBold-BUZAoeQT.woff",
+    "src": "resources/fonts/Metropolis/Metropolis-SemiBold.woff"
+  },
+  "resources/fonts/Metropolis/Metropolis-SemiBold.woff2": {
+    "file": "assets/Metropolis-SemiBold-hK0B45PW.woff2",
+    "src": "resources/fonts/Metropolis/Metropolis-SemiBold.woff2"
+  },
+  "resources/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons-DEv71vJw.woff",
+    "src": "resources/fonts/bootstrap-icons.woff"
+  },
+  "resources/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons-Ba0gDiEa.woff2",
+    "src": "resources/fonts/bootstrap-icons.woff2"
   },
   "resources/images/Artboard 6.png": {
     "file": "assets/Artboard 6-DmeJQTu0.png",
