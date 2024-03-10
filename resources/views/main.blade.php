@@ -118,17 +118,26 @@
                         <div class="col-lg-10 col-12 text-center mx-auto">
                             <h2 class="mb-5">We help you with</h2>
                         </div>
-                        <p>{{file_exists('/images/slide/image_1.jpg') ? "true" : 'false'}}</p>
+                        {{-- <p>{{file_exists('/images/slide/image_1.jpg') ? "true" : 'false'}}</p>
                         <p>{{file_exists(public_path('/images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
                         <p>{{file_exists(url('/images/slide/image_1.jpg'))  ? "true" : 'false'}}</p>
                         <p>{{file_exists(public_path('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
                         <p>{{file_exists(url('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
                         <p>{{file_exists(storage_path('images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
                         <p>{{file_exists(storage_path('/images/slide/image_1.jpg')) ? "true" : 'false'}}</p>
+ --}}
+
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
                                 <a href="{{ route('publishing') }}" class="d-block">
-                                    <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="/images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{public_path('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{public_path('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{url('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{storage_path('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{storage_path('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+
+                                    {{-- <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;"> --}}
                                     <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
                                 </a>
                             </div>
