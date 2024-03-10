@@ -13,7 +13,8 @@ export default defineConfig({
                 'resources/js/counter.js',
                 'resources/js/custom.js',
                 'resources/js/jquery.min.js',
-                'resources/js/jquery.sticky.js'
+                'resources/js/jquery.sticky.js',
+                'storage/images/icons/publishing.png'
             ],
             refresh: true,
         }),

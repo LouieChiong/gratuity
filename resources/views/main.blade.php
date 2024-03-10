@@ -136,6 +136,8 @@
                                     <img src="{{url('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <img src="{{storage_path('images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <img src="{{storage_path('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{asset('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
+                                    <img src="{{Vite::asset('/images/icons/publishing.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
 
                                     {{-- <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;"> --}}
                                     <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
