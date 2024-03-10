@@ -1,3 +1,4 @@
+<php>
 <!doctype html>
 <html lang="en">
     <head>
@@ -116,7 +117,7 @@
 
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
-                                <a href="publishing.html" class="d-block">
+                                <a href="publishing.php" class="d-block">
                                     <img src="images/icons/publishing.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
                                 </a>
@@ -125,7 +126,7 @@
 
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
-                                <a href="marketing.html" class="d-block">
+                                <a href="marketing.php" class="d-block">
                                     <img src="images/icons/marketing_1.png" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
                                     <p class="featured-block-text"><strong>MARKETING</strong> </p>
                                 </a>
@@ -253,3 +254,4 @@
 
     </body>
 </html>
+</php>
