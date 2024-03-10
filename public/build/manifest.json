@@ -10,8 +10,193 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-BrzMWz_H.css",
+    "file": "assets/template-C6AUPhSR.css",
     "src": "resources/css/template.css",
+    "isEntry": true
+  },
+  "resources/images/Artboard 6.png": {
+    "file": "assets/Artboard 6-DmeJQTu0.png",
+    "src": "resources/images/Artboard 6.png"
+  },
+  "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg": {
+    "file": "assets/portrait-beautiful-young-woman-standing-grey-wall-CuwLOpO5.jpg",
+    "src": "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
+  },
+  "resources/images/avatar/portrait-young-beautiful-woman-gesticulating.jpg": {
+    "file": "assets/portrait-young-beautiful-woman-gesticulating-YqsOlpDa.jpg",
+    "src": "resources/images/avatar/portrait-young-beautiful-woman-gesticulating.jpg"
+  },
+  "resources/images/avatar/portrait-young-redhead-bearded-male.jpg": {
+    "file": "assets/portrait-young-redhead-bearded-male-B2-w_6n2.jpg",
+    "src": "resources/images/avatar/portrait-young-redhead-bearded-male.jpg"
+  },
+  "resources/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg": {
+    "file": "assets/pretty-blonde-woman-wearing-white-t-shirt-CVv2fwZq.jpg",
+    "src": "resources/images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg"
+  },
+  "resources/images/avatar/studio-portrait-emotional-happy-funny.jpg": {
+    "file": "assets/studio-portrait-emotional-happy-funny-CP4EZQo9.jpg",
+    "src": "resources/images/avatar/studio-portrait-emotional-happy-funny.jpg"
+  },
+  "resources/images/causes/african-woman-pouring-water-recipient-outdoors.jpg": {
+    "file": "assets/african-woman-pouring-water-recipient-outdoors-DlslvWfR.jpg",
+    "src": "resources/images/causes/african-woman-pouring-water-recipient-outdoors.jpg"
+  },
+  "resources/images/causes/group-african-kids-paying-attention-class.jpg": {
+    "file": "assets/group-african-kids-paying-attention-class-Df3zRUlC.jpg",
+    "src": "resources/images/causes/group-african-kids-paying-attention-class.jpg"
+  },
+  "resources/images/causes/poor-child-landfill-looks-forward-with-hope.jpg": {
+    "file": "assets/poor-child-landfill-looks-forward-with-hope-C9wzRpW5.jpg",
+    "src": "resources/images/causes/poor-child-landfill-looks-forward-with-hope.jpg"
+  },
+  "resources/images/different-people-doing-volunteer-work.jpg": {
+    "file": "assets/different-people-doing-volunteer-work-D2nBt-BO.jpg",
+    "src": "resources/images/different-people-doing-volunteer-work.jpg"
+  },
+  "resources/images/group-people-volunteering-foodbank-poor-people.jpg": {
+    "file": "assets/group-people-volunteering-foodbank-poor-people-MvuqpUDB.jpg",
+    "src": "resources/images/group-people-volunteering-foodbank-poor-people.jpg"
+  },
+  "resources/images/icons/ads.png": {
+    "file": "assets/ads-nClqtTy1.png",
+    "src": "resources/images/icons/ads.png"
+  },
+  "resources/images/icons/advertising.png": {
+    "file": "assets/advertising-BVI_m891.png",
+    "src": "resources/images/icons/advertising.png"
+  },
+  "resources/images/icons/audio-book.png": {
+    "file": "assets/audio-book-CZ-c73S0.png",
+    "src": "resources/images/icons/audio-book.png"
+  },
+  "resources/images/icons/book_ex.png": {
+    "file": "assets/book_ex-B-3PUWrp.png",
+    "src": "resources/images/icons/book_ex.png"
+  },
+  "resources/images/icons/book_review.png": {
+    "file": "assets/book_review-B90nQyTe.png",
+    "src": "resources/images/icons/book_review.png"
+  },
+  "resources/images/icons/campaign.png": {
+    "file": "assets/campaign-DUddEqfZ.png",
+    "src": "resources/images/icons/campaign.png"
+  },
+  "resources/images/icons/email_campaign.png": {
+    "file": "assets/email_campaign-C1BMkMUs.png",
+    "src": "resources/images/icons/email_campaign.png"
+  },
+  "resources/images/icons/hands.png": {
+    "file": "assets/hands-BmAP7Qk8.png",
+    "src": "resources/images/icons/hands.png"
+  },
+  "resources/images/icons/heart.png": {
+    "file": "assets/heart-BmwCDW1M.png",
+    "src": "resources/images/icons/heart.png"
+  },
+  "resources/images/icons/hollywood.png": {
+    "file": "assets/hollywood-Ce2u9mSq.png",
+    "src": "resources/images/icons/hollywood.png"
+  },
+  "resources/images/icons/marketing.png": {
+    "file": "assets/marketing-C-bKE7Ib.png",
+    "src": "resources/images/icons/marketing.png"
+  },
+  "resources/images/icons/marketing_1.png": {
+    "file": "assets/marketing_1-DZpLfraL.png",
+    "src": "resources/images/icons/marketing_1.png"
+  },
+  "resources/images/icons/press.png": {
+    "file": "assets/press-BbRqvzqu.png",
+    "src": "resources/images/icons/press.png"
+  },
+  "resources/images/icons/publishing.png": {
+    "file": "assets/publishing-BWe0O-oK.png",
+    "src": "resources/images/icons/publishing.png"
+  },
+  "resources/images/icons/radio.png": {
+    "file": "assets/radio-g0Kxosr1.png",
+    "src": "resources/images/icons/radio.png"
+  },
+  "resources/images/icons/receive.png": {
+    "file": "assets/receive-BE0j3Q8y.png",
+    "src": "resources/images/icons/receive.png"
+  },
+  "resources/images/icons/scholarship.png": {
+    "file": "assets/scholarship-C_QVKBrH.png",
+    "src": "resources/images/icons/scholarship.png"
+  },
+  "resources/images/icons/virtuoso.png": {
+    "file": "assets/virtuoso-DT3dPe_w.png",
+    "src": "resources/images/icons/virtuoso.png"
+  },
+  "resources/images/logo.ico": {
+    "file": "assets/logo-m2B585Bw.ico",
+    "src": "resources/images/logo.ico"
+  },
+  "resources/images/logo.png": {
+    "file": "assets/logo-UmL73zrH.png",
+    "src": "resources/images/logo.png"
+  },
+  "resources/images/news/africa-humanitarian-aid-doctor.jpg": {
+    "file": "assets/africa-humanitarian-aid-doctor-KEdW9kEU.jpg",
+    "src": "resources/images/news/africa-humanitarian-aid-doctor.jpg"
+  },
+  "resources/images/news/close-up-happy-people-working-together.jpg": {
+    "file": "assets/close-up-happy-people-working-together-DO9_bHJ5.jpg",
+    "src": "resources/images/news/close-up-happy-people-working-together.jpg"
+  },
+  "resources/images/news/close-up-volunteer-oganizing-stuff-donation.jpg": {
+    "file": "assets/close-up-volunteer-oganizing-stuff-donation-0Fj1lLcp.jpg",
+    "src": "resources/images/news/close-up-volunteer-oganizing-stuff-donation.jpg"
+  },
+  "resources/images/news/medium-shot-people-collecting-foodstuff.jpg": {
+    "file": "assets/medium-shot-people-collecting-foodstuff-DPZeUqsn.jpg",
+    "src": "resources/images/news/medium-shot-people-collecting-foodstuff.jpg"
+  },
+  "resources/images/news/medium-shot-volunteers-with-clothing-donations.jpg": {
+    "file": "assets/medium-shot-volunteers-with-clothing-donations-ZhJCww1Y.jpg",
+    "src": "resources/images/news/medium-shot-volunteers-with-clothing-donations.jpg"
+  },
+  "resources/images/portrait-volunteer-who-organized-donations-charity.jpg": {
+    "file": "assets/portrait-volunteer-who-organized-donations-charity-DvDRyGik.jpg",
+    "src": "resources/images/portrait-volunteer-who-organized-donations-charity.jpg"
+  },
+  "resources/images/slide/image_1.jpg": {
+    "file": "assets/image_1-CuF4LVzM.jpg",
+    "src": "resources/images/slide/image_1.jpg"
+  },
+  "resources/images/slide/image_2.jpg": {
+    "file": "assets/image_2-UdU_rLON.jpg",
+    "src": "resources/images/slide/image_2.jpg"
+  },
+  "resources/images/slide/image_3.jpg": {
+    "file": "assets/image_3-twpSd_hH.jpg",
+    "src": "resources/images/slide/image_3.jpg"
+  },
+  "resources/images/slide/image_4.jpg": {
+    "file": "assets/image_4-CFbyVQJf.jpg",
+    "src": "resources/images/slide/image_4.jpg"
+  },
+  "resources/images/slide/medium-shot-people-collecting-donations.jpg": {
+    "file": "assets/medium-shot-people-collecting-donations-fvrsmySM.jpg",
+    "src": "resources/images/slide/medium-shot-people-collecting-donations.jpg"
+  },
+  "resources/images/slide/volunteer-helping-with-donation-box.jpg": {
+    "file": "assets/volunteer-helping-with-donation-box-B902PCxg.jpg",
+    "src": "resources/images/slide/volunteer-helping-with-donation-box.jpg"
+  },
+  "resources/images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg": {
+    "file": "assets/volunteer-selecting-organizing-clothes-donations-charity-BC5xdnnC.jpg",
+    "src": "resources/images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg"
+  },
+  "resources/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg": {
+    "file": "assets/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge-CPfmcayC.jpg",
+    "src": "resources/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DL_q1Xoz.js",
+    "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/js/bootstrap.min.js": {
