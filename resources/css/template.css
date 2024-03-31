@@ -763,24 +763,18 @@ strong {
 
 
 /*---------------------------------------
-  DONATE
+  COLORS
 -----------------------------------------*/
-.donate-section {
-  background-image: url('../images/different-people-doing-volunteer-work.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 150px;
+.secondary-color {
+  background-color: var(--custom-btn-bg-color);
+  color: var(--white-color);
+  text-decoration: none;
 }
 
-.donate-form {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-  padding: 50px;
+.secondary-color:hover {
+  background-color: var(--custom-btn-bg-hover-color);
+  color: var(--white-color);
+  text-decoration: none;
 }
 
 
