@@ -51,7 +51,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Contact Us</a>
+                            <a class="nav-link click-scroll" href="#section_4">Feedbacks</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -208,7 +212,146 @@
                 </div>
             </section>
 
-            <section class="contact-section section-padding" id="section_4">
+            <section class="section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-12 p-0">
+                            <div id="review-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active d-flex flex-row gap-5 justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="d-flex flex-row mb-3">
+                                                <img src="{{ Vite::asset('resources/images/reviewer/candice.jpg') }}" width="150" height="150" class="bg-light shadow-lg rounded" alt="">
+                                                <div class="d-flex flex-column ms-4">
+                                                    <h2 class="mb-0">Candicee Childs</h2>
+                                                    <p class="fw-bold"><b>Author:</b> <i>Lemons, Lemonade, & the Lemonade Stand</i></p>
+                                                </div>
+                                            </div>
+
+                                            <p class="text-wrap">
+                                                <i>
+                                                    They have excellent designers, customer service, and support
+                                                    "I loved working with GRATUITY because as a new author, they had everything organized and easy to follow.
+                                                    <br> <br>
+                                                    They helped me understand the process and were great at helping me with making my dreams come true.
+                                                    They have excellent designers, customer service, and support. I would highly recommend this company to anyone!"
+                                                </i>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item d-flex flex-row gap-5 justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="d-flex flex-row mb-3">
+                                                <img src="{{ Vite::asset('resources/images/reviewer/howard.png') }}" width="150" height="200" class="bg-light shadow-lg rounded" alt="">
+                                                <div class="d-flex flex-column ms-4">
+                                                    <h2 class="mb-0">Howard S. Bush MD</h2>
+                                                    <p class="fw-bold"><b>Author:</b> <i>Doctor-Patient Communication Skills</i></p>
+                                                </div>
+                                            </div>
+
+                                            <p class="text-wrap">
+                                                <i>
+                                                    “Communication was excellent. There were no surprises. I was updated every step of the way. Very responsive. Seamless”
+                                                </i>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item d-flex flex-row gap-5 justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="d-flex flex-row mb-3">
+                                                <img src="{{ Vite::asset('resources/images/reviewer/deniz.jpeg') }}" width="150" height="150" class="bg-light shadow-lg rounded" alt="">
+                                                <div class="d-flex flex-column ms-4">
+                                                    <h2 class="mb-0">Deniz Kayadelen</h2>
+                                                    <p class="fw-bold"><b>Author:</b> <i>Out Of Comfort Zone</i></p>
+                                                </div>
+                                            </div>
+
+                                            <p class="text-wrap">
+                                                <i>
+                                                    "I wanted to ensure professionalism and visibility of my book. GRATUITY  supported me in editing, structuring, design, cover page design and marketing. In all phases I never felt alone and it was a great support! Can't believe that my book is number #1 and so happy to made this choice to get support from this experienced great team!. Thank you so much for the great collaboration!
+                                                </i>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item  d-flex flex-row gap-5 justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="d-flex flex-row mb-3">
+                                                <img src="{{ Vite::asset('resources/images/reviewer/tim.png') }}" width="150" height="150" class="bg-light shadow-lg rounded" alt="">
+                                                <div class="d-flex flex-column ms-4">
+                                                    <h2 class="mb-0">Timothy Gocke</h2>
+                                                    <p class="fw-bold"><b>Author:</b> <i>At the Very Heart and Soul: A Common-Sense Guide to Appreciation and Gratitude for Couple Relationships</i></p>
+                                                </div>
+                                            </div>
+                                            <p class="text-wrap">
+                                                <i>
+                                                    I approve my galley. It has the best cover I’ve ever seen and goes so well with the theme of Heart and Soul. I am very appreciative and so
+                                                    excited about this book that I just received and so surprised how quickly I received it.
+                                                </i>
+                                                    <br>
+                                                    <br>
+                                                <i>
+                                                    I want to thank you again and your whole team  for such a great experience and a job well-done. 
+                                                    The professionalism in your company is what makes you so unique. 
+                                                    Your dedication to each author is certainly a key to your success
+                                                </i>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item d-flex flex-row gap-5 justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="d-flex flex-row mb-3">
+                                                <img src="{{ Vite::asset('resources/images/reviewer/clint.png') }}" width="150" height="150" class="bg-light shadow-lg rounded" alt="">
+                                                <div class="d-flex flex-column ms-4">
+                                                    <h2 class="mb-0">Clint Goodwin</h2>
+                                                    <p class="fw-bold"><b>Author:</b> <i>Leather to Steel</i></p>
+                                                </div>
+                                            </div>
+                                            <p class="text-wrap">
+                                                <i>
+                                                I want you to know my first experience with your company was outstanding.
+                                                Your company produced positive results in a reasonable a mount of time to market.
+                                                </i>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item d-flex flex-row gap-5 justify-content-center">
+                                        <div class="col-lg-6 col-md-8 col-12">
+                                            <div class="d-flex flex-row mb-3">
+                                                <img src="{{ Vite::asset('resources/images/reviewer/elwood.png') }}" width="150" height="150" class="bg-light shadow-lg rounded" alt="">
+                                                <div class="d-flex flex-column ms-4">
+                                                    <h2 class="mb-0">Gene Elwood</h2>
+                                                    <p class="fw-bold"><b>Author:</b> <i>Syncopated Love Dreams</i></p>
+                                                </div>
+                                            </div>
+
+                                            <p><i>“I received fantastic and wonderful assistance. I greatly appreciate GRATUITY .”</i></p>
+                                            <p class="text-wrap">
+                                                Elwood Gene-Mishmah is a retired educator and administrator who now spends his time writing, publishing, and traveling. Syncopated Love Dreams is his sixteenth self-published book. Currently, he resides in Palm Coast, Florida.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#review-slide" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#review-slide" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding section-bg" id="section_5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-12 mx-auto">
@@ -224,29 +367,28 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             </div>
                             @endif
-                            <form class="custom-form contact-form" action="{{ route('email')}}" method="post">
+                            <form class="custom-form contact-form bg-white" action="{{ route('email')}}" method="post">
                                 @csrf
                                 <h2>Contact Us</h2>
                                 <p class="mb-4">You can just send an email</p>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
-                                        <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name" required>
+                                        <input type="text" name="first_name" id="first_name" class="form-control" style="background: #f0f8ff" placeholder="First Name" required>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-12">
-                                        <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name" required>
+                                        <input type="text" name="last_name" id="last_name" class="form-control"  style="background: #f0f8ff" placeholder="Last Name" required>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-12">
-                                        <input type="text" name="contact_number" id="contact_number" class="form-control" placeholder="Contact Number" required>
+                                        <input type="text" name="contact_number" id="contact_number" class="form-control"  style="background: #f0f8ff" placeholder="Contact Number" required>
                                     </div>
                                 </div>
 
-                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your email address" required>
-                                <textarea name="message" rows="5" class="form-control" id="message" placeholder="What can we help you?"></textarea>
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"  style="background: #f0f8ff" placeholder="Your email address" required>
+                                <textarea name="message" rows="5" class="form-control" style="background: #f0f8ff" id="message" placeholder="What can we help you?"></textarea>
 
                                 <button type="submit" class="form-control">Send Message</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </section>
