@@ -10,6 +10,7 @@
         { "src": "/resources/js/(.*)", "dest": "/public/resources/js/" },
         { "src": "/resources/fonts/(.*)", "dest": "/public/fonts/" },
         { "src": "/resources/fonts/Metropolis/(.*)", "dest": "/public/fonts/Metropolis/" },
+        { "src": "/resources/images/reviewer/(.*)", "dest": "/public/images/reviewer/" },
         { "src": "/resources/images/avatar/(.*)", "dest": "/public/images/avatar/" },
         { "src": "/resources/images/slide/(.*)", "dest": "/public/images/slide/" },
         { "src": "/resources/images/icons/(.*)", "dest": "/public/images/icons/" },
