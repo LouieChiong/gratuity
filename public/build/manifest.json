@@ -10,7 +10,7 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-BKx7pYql.css",
+    "file": "assets/template-Bhy9_CWc.css",
     "src": "resources/css/template.css",
     "isEntry": true
   },
@@ -201,6 +201,34 @@
   "resources/images/portrait-volunteer-who-organized-donations-charity.jpg": {
     "file": "assets/portrait-volunteer-who-organized-donations-charity-DvDRyGik.jpg",
     "src": "resources/images/portrait-volunteer-who-organized-donations-charity.jpg"
+  },
+  "resources/images/reviewer/candice.jpg": {
+    "file": "assets/candice-IZqlDQ28.jpg",
+    "src": "resources/images/reviewer/candice.jpg"
+  },
+  "resources/images/reviewer/clint.png": {
+    "file": "assets/clint-Df-WHa8V.png",
+    "src": "resources/images/reviewer/clint.png"
+  },
+  "resources/images/reviewer/deniz.jpeg": {
+    "file": "assets/deniz-C8UU7a0u.jpeg",
+    "src": "resources/images/reviewer/deniz.jpeg"
+  },
+  "resources/images/reviewer/deniz.jpg": {
+    "file": "assets/deniz-BIrrjasD.jpg",
+    "src": "resources/images/reviewer/deniz.jpg"
+  },
+  "resources/images/reviewer/elwood.png": {
+    "file": "assets/elwood-FO4u5RlO.png",
+    "src": "resources/images/reviewer/elwood.png"
+  },
+  "resources/images/reviewer/howard.png": {
+    "file": "assets/howard-BQN9z2J4.png",
+    "src": "resources/images/reviewer/howard.png"
+  },
+  "resources/images/reviewer/tim.png": {
+    "file": "assets/tim-BzogU6vF.png",
+    "src": "resources/images/reviewer/tim.png"
   },
   "resources/images/slide/image_1.jpg": {
     "file": "assets/image_1-CuF4LVzM.jpg",
