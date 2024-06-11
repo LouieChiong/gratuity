@@ -146,6 +146,10 @@
     "file": "assets/marketing_1-DZpLfraL.png",
     "src": "resources/images/icons/marketing_1.png"
   },
+  "resources/images/icons/paypal.png": {
+    "file": "assets/paypal-BlJn-X_D.png",
+    "src": "resources/images/icons/paypal.png"
+  },
   "resources/images/icons/press.png": {
     "file": "assets/press-BbRqvzqu.png",
     "src": "resources/images/icons/press.png"
@@ -264,36 +268,43 @@
   },
   "resources/js/app.js": {
     "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/js/bootstrap.min.js": {
     "file": "assets/bootstrap.min-ZL6B1r2z.js",
+    "name": "bootstrap.min",
     "src": "resources/js/bootstrap.min.js",
     "isEntry": true
   },
   "resources/js/click-scroll.js": {
     "file": "assets/click-scroll-rZRvKMV5.js",
+    "name": "click-scroll",
     "src": "resources/js/click-scroll.js",
     "isEntry": true
   },
   "resources/js/counter.js": {
     "file": "assets/counter-Bw56aSdp.js",
+    "name": "counter",
     "src": "resources/js/counter.js",
     "isEntry": true
   },
   "resources/js/custom.js": {
     "file": "assets/custom-DUaC29yI.js",
+    "name": "custom",
     "src": "resources/js/custom.js",
     "isEntry": true
   },
   "resources/js/jquery.min.js": {
     "file": "assets/jquery.min-rkPHN7aA.js",
+    "name": "jquery.min",
     "src": "resources/js/jquery.min.js",
     "isEntry": true
   },
   "resources/js/jquery.sticky.js": {
     "file": "assets/jquery.sticky-BZEgNNrb.js",
+    "name": "jquery.sticky",
     "src": "resources/js/jquery.sticky.js",
     "isEntry": true
   }

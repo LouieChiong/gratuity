@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EmailController;
+use App\Http\Controllers\PaypalController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -44,3 +45,7 @@ Route::get('/marketing', function () {
 })->name('marketing');
 
 Route::post('/sendEmail', [EmailController::class, 'sendEmail'])->name('email');
+
+Route::post('process-transaction', [PayPalController::class, 'processTransaction'])->name('processTransaction');
+Route::get('success-transaction', [PayPalController::class, 'successTransaction'])->name('successTransaction');
+Route::get('cancel-transaction', [PayPalController::class, 'cancelTransaction'])->name('cancelTransaction');
