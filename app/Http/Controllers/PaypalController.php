@@ -4,23 +4,33 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
+use Illuminate\Support\Facades\Http;
 
 class PaypalController extends Controller
 {
     public function processTransaction(Request $request)
     {
-        $provider = new PayPalClient;
-        $provider->setApiCredentials(config('paypal'));
-        $paypalToken = $provider->getAccessToken();
-        $response = $provider->createOrder([
+        $clientId = env('PAYPAL_SANDBOX_CLIENT_ID');
+        $clientSecret = env('PAYPAL_SANDBOX_CLIENT_SECRET');
+        $authUrl = 'https://api.sandbox.paypal.com/v1/oauth2/token';
+        $orderUrl = 'https://api.sandbox.paypal.com/v2/checkout/orders';
+
+        // Get PayPal access token
+        $response = Http::asForm()->withBasicAuth($clientId, $clientSecret)->post($authUrl, [
+            'grant_type' => 'client_credentials'
+        ]);
+
+        $paypalToken = $response->json()['access_token'];
+
+        // Create PayPal order
+        $response = Http::withToken($paypalToken)->post($orderUrl, [
             "intent" => "CAPTURE",
             "application_context" => [
                 "return_url" => route('successTransaction'),
                 "cancel_url" => route('cancelTransaction'),
             ],
             "purchase_units" => [
-                0 => [
+                [
                     "amount" => [
                         "currency_code" => "USD",
                         "value" => $request->amount
@@ -30,20 +40,18 @@ class PaypalController extends Controller
                 ]
             ]
         ]);
-        if (isset($response['id']) && $response['id'] != null) {
-            // redirect to approve href
-            foreach ($response['links'] as $links) {
+
+        $responseBody = $response->json();
+
+        if (isset($responseBody['id']) && $responseBody['id'] != null) {
+            foreach ($responseBody['links'] as $links) {
                 if ($links['rel'] == 'approve') {
                     return redirect()->away($links['href']);
                 }
             }
-            return redirect()
-                ->route('createTransaction')
-                ->with('error', 'Something went wrong.');
+            return redirect('/#section_6')->with('error-paypal', 'Something went wrong.');
         } else {
-            return redirect()
-                ->route('createTransaction')
-                ->with('error', $response['message'] ?? 'Something went wrong.');
+            return redirect('/#section_6')->with('error-paypal', $response['message'] ?? 'Something went wrong.');
         }
     }
 
@@ -54,15 +62,7 @@ class PaypalController extends Controller
      */
     public function successTransaction(Request $request): RedirectResponse
     {
-        $provider = new PayPalClient;
-        $provider->setApiCredentials(config('paypal'));
-        $provider->getAccessToken();
-        $response = $provider->capturePaymentOrder($request['token']);
-        if (isset($response['status']) && $response['status'] == 'COMPLETED') {
-            return redirect('/#section_6')->with(['message-paypal' => "Transaction Successfully"]);
-        } else {
-            return redirect('/#section_6')->with('error-paypal', $response['message'] ?? 'Something went wrong.');
-        }
+        return redirect('/#section_6')->with(['message-paypal' => "Transaction Successfully"]);
     }
 
     /**
