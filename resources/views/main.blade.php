@@ -229,6 +229,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Candicee Childs</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Lemons, Lemonade, & the Lemonade Stand</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -251,6 +258,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Howard S. Bush MD</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Doctor-Patient Communication Skills</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -269,9 +283,15 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Deniz Kayadelen</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Out Of Comfort Zone</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                    </div>
                                                 </div>
                                             </div>
-
                                             <p class="text-wrap">
                                                 <i>
                                                     "I wanted to ensure professionalism and visibility of my book. GRATUITY  supported me in editing, structuring, design, cover page design and marketing. In all phases I never felt alone and it was a great support! Can't believe that my book is number #1 and so happy to made this choice to get support from this experienced great team!. Thank you so much for the great collaboration!
@@ -287,6 +307,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Timothy Gocke</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>At the Very Heart and Soul: A Common-Sense Guide to Appreciation and Gratitude for Couple Relationships</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <p class="text-wrap">
@@ -312,6 +339,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Clint Goodwin</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Leather to Steel</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <p class="text-wrap">
@@ -330,6 +364,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Gene Elwood</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Syncopated Love Dreams</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
 

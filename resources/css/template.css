@@ -1667,3 +1667,7 @@ blockquote::before {
 .text-primary {
   color: var(--primary-color) !important;
 }
+
+.text-secondary {
+  color: var(--custom-btn-bg-color) !important;
+}
