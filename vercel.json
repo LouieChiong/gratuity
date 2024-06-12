@@ -38,6 +38,6 @@
         "env": {
         "COMPOSER_ALLOW_SUPERUSER": "1"
     },
-    "command": "composer install --ignore-platform-reqs"
+    "installCommand": "composer install --ignore-platform-reqs"
     }
 }
