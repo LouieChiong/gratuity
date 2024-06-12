@@ -33,11 +33,5 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "LIVEWIRE_MANIFEST_PATH": "/tmp/livewire-components.php"
-    },
-    "build": {
-        "env": {
-        "COMPOSER_ALLOW_SUPERUSER": "1"
-    },
-    "installCommand": "composer install --ignore-platform-reqs"
     }
 }
