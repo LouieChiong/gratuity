@@ -12,8 +12,8 @@ class PaypalController extends Controller
     {
         $clientId = env('PAYPAL_SANDBOX_CLIENT_ID');
         $clientSecret = env('PAYPAL_SANDBOX_CLIENT_SECRET');
-        $authUrl = 'https://api.sandbox.paypal.com/v1/oauth2/token';
-        $orderUrl = 'https://api.sandbox.paypal.com/v2/checkout/orders';
+        $authUrl = 'https://api.paypal.com/v1/oauth2/token';
+        $orderUrl = 'https://api.paypal.com/v2/checkout/orders';
 
         // Get PayPal access token
         $response = Http::asForm()->withBasicAuth($clientId, $clientSecret)->post($authUrl, [
