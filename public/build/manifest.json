@@ -10,7 +10,7 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-Bhy9_CWc.css",
+    "file": "assets/template-FNUlX_xA.css",
     "src": "resources/css/template.css",
     "isEntry": true
   },
@@ -54,10 +54,6 @@
     "file": "assets/bootstrap-icons-Ba0gDiEa.woff2",
     "src": "resources/fonts/bootstrap-icons.woff2"
   },
-  "resources/images/Artboard 6.png": {
-    "file": "assets/Artboard 6-DmeJQTu0.png",
-    "src": "resources/images/Artboard 6.png"
-  },
   "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg": {
     "file": "assets/portrait-beautiful-young-woman-standing-grey-wall-CuwLOpO5.jpg",
     "src": "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
@@ -89,14 +85,6 @@
   "resources/images/causes/poor-child-landfill-looks-forward-with-hope.jpg": {
     "file": "assets/poor-child-landfill-looks-forward-with-hope-C9wzRpW5.jpg",
     "src": "resources/images/causes/poor-child-landfill-looks-forward-with-hope.jpg"
-  },
-  "resources/images/different-people-doing-volunteer-work.jpg": {
-    "file": "assets/different-people-doing-volunteer-work-D2nBt-BO.jpg",
-    "src": "resources/images/different-people-doing-volunteer-work.jpg"
-  },
-  "resources/images/group-people-volunteering-foodbank-poor-people.jpg": {
-    "file": "assets/group-people-volunteering-foodbank-poor-people-MvuqpUDB.jpg",
-    "src": "resources/images/group-people-volunteering-foodbank-poor-people.jpg"
   },
   "resources/images/icons/ads.png": {
     "file": "assets/ads-nClqtTy1.png",
@@ -146,6 +134,10 @@
     "file": "assets/marketing_1-DZpLfraL.png",
     "src": "resources/images/icons/marketing_1.png"
   },
+  "resources/images/icons/paypal.png": {
+    "file": "assets/paypal-BlJn-X_D.png",
+    "src": "resources/images/icons/paypal.png"
+  },
   "resources/images/icons/press.png": {
     "file": "assets/press-BbRqvzqu.png",
     "src": "resources/images/icons/press.png"
@@ -161,10 +153,6 @@
   "resources/images/icons/receive.png": {
     "file": "assets/receive-BE0j3Q8y.png",
     "src": "resources/images/icons/receive.png"
-  },
-  "resources/images/icons/scholarship.png": {
-    "file": "assets/scholarship-C_QVKBrH.png",
-    "src": "resources/images/icons/scholarship.png"
   },
   "resources/images/icons/virtuoso.png": {
     "file": "assets/virtuoso-DT3dPe_w.png",
@@ -197,10 +185,6 @@
   "resources/images/news/medium-shot-volunteers-with-clothing-donations.jpg": {
     "file": "assets/medium-shot-volunteers-with-clothing-donations-ZhJCww1Y.jpg",
     "src": "resources/images/news/medium-shot-volunteers-with-clothing-donations.jpg"
-  },
-  "resources/images/portrait-volunteer-who-organized-donations-charity.jpg": {
-    "file": "assets/portrait-volunteer-who-organized-donations-charity-DvDRyGik.jpg",
-    "src": "resources/images/portrait-volunteer-who-organized-donations-charity.jpg"
   },
   "resources/images/reviewer/candice.jpg": {
     "file": "assets/candice-IZqlDQ28.jpg",
@@ -258,42 +242,45 @@
     "file": "assets/volunteer-selecting-organizing-clothes-donations-charity-BC5xdnnC.jpg",
     "src": "resources/images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg"
   },
-  "resources/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg": {
-    "file": "assets/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge-CPfmcayC.jpg",
-    "src": "resources/images/smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg"
-  },
   "resources/js/app.js": {
     "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/js/bootstrap.min.js": {
     "file": "assets/bootstrap.min-ZL6B1r2z.js",
+    "name": "bootstrap.min",
     "src": "resources/js/bootstrap.min.js",
     "isEntry": true
   },
   "resources/js/click-scroll.js": {
     "file": "assets/click-scroll-rZRvKMV5.js",
+    "name": "click-scroll",
     "src": "resources/js/click-scroll.js",
     "isEntry": true
   },
   "resources/js/counter.js": {
     "file": "assets/counter-Bw56aSdp.js",
+    "name": "counter",
     "src": "resources/js/counter.js",
     "isEntry": true
   },
   "resources/js/custom.js": {
     "file": "assets/custom-DUaC29yI.js",
+    "name": "custom",
     "src": "resources/js/custom.js",
     "isEntry": true
   },
   "resources/js/jquery.min.js": {
     "file": "assets/jquery.min-rkPHN7aA.js",
+    "name": "jquery.min",
     "src": "resources/js/jquery.min.js",
     "isEntry": true
   },
   "resources/js/jquery.sticky.js": {
     "file": "assets/jquery.sticky-BZEgNNrb.js",
+    "name": "jquery.sticky",
     "src": "resources/js/jquery.sticky.js",
     "isEntry": true
   }

@@ -50,7 +50,15 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/#section_4">Contact Us</a>
+                            <a class="nav-link click-scroll" href="/#section_4">Reviews</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_5">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="/#section_6">Payment</a>
                         </li>
                     </ul>
                 </div>

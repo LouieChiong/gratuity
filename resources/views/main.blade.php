@@ -51,11 +51,15 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Feedbacks</a>
+                            <a class="nav-link click-scroll" href="#section_4">Reviews</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_6">Payment</a>
                         </li>
                     </ul>
                 </div>
@@ -225,6 +229,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Candicee Childs</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Lemons, Lemonade, & the Lemonade Stand</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -247,6 +258,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Howard S. Bush MD</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Doctor-Patient Communication Skills</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -265,9 +283,15 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Deniz Kayadelen</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Out Of Comfort Zone</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                    </div>
                                                 </div>
                                             </div>
-
                                             <p class="text-wrap">
                                                 <i>
                                                     "I wanted to ensure professionalism and visibility of my book. GRATUITY  supported me in editing, structuring, design, cover page design and marketing. In all phases I never felt alone and it was a great support! Can't believe that my book is number #1 and so happy to made this choice to get support from this experienced great team!. Thank you so much for the great collaboration!
@@ -283,6 +307,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Timothy Gocke</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>At the Very Heart and Soul: A Common-Sense Guide to Appreciation and Gratitude for Couple Relationships</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <p class="text-wrap">
@@ -308,6 +339,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Clint Goodwin</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Leather to Steel</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <p class="text-wrap">
@@ -326,6 +364,13 @@
                                                 <div class="d-flex flex-column ms-4">
                                                     <h2 class="mb-0">Gene Elwood</h2>
                                                     <p class="fw-bold"><b>Author:</b> <i>Syncopated Love Dreams</i></p>
+                                                    <div class="d-flex flex-row gap-3">
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star-fill text-secondary"></i>
+                                                        <i class="bi bi-star"></i>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -387,6 +432,45 @@
                                 <textarea name="message" rows="5" class="form-control" style="background: #f0f8ff" id="message" placeholder="What can we help you?"></textarea>
 
                                 <button type="submit" class="form-control">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="section_6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 mx-auto">
+                            @if (session('message-paypal'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong> {{ session('message-paypal') }}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            @endif
+                            @if (session('error-paypal'))
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <strong> {{ session('error-paypal') }}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            @endif
+                            <form class="custom-form contact-form bg-white" action="{{ route('processTransaction')}}" method="post">
+                                @csrf
+                                <h2>Pay Invoice</h2>
+                                <p class="mb-4">You can pay you invoice thru paypal</p>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <input type="text" name="invoice" class="form-control" style="background: #f0f8ff" placeholder="Invoice Number" required>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <input type="number" name="amount" class="form-control"  style="background: #f0f8ff" placeholder="Amount" required>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center; width: 100%">
+                                    <button type="submit" class="form-control text-center" style="width: 380px">
+                                        <img src="{{ Vite::asset('resources/images/icons/paypal.png') }}" width="90" height="auto">
+                                    </button>
+                                </div>
                             </form>
                         </div>
                     </div>
