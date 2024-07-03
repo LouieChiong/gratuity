@@ -183,7 +183,7 @@
                     <div class="col-lg-6 col-md-6 col-12">
                         <ul class="list">
                             <li class="list-group-item text-sm text-white">
-                                <a href="#section_6" class="btn link">Payment</a>
+                                <a href="/#section_6" class="btn link">Payment</a>
                             </li>
                         </ul>
                     </div>
