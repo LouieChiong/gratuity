@@ -1671,3 +1671,14 @@ blockquote::before {
 .text-secondary {
   color: var(--custom-btn-bg-color) !important;
 }
+
+.link {
+  text-decoration: none;
+  color: white;
+  line-height: 1rem;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: var(--custom-btn-bg-hover-color);
+}

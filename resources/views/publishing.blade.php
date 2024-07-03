@@ -107,7 +107,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12">
-                        <!-- Content for the first column goes here -->
+                        <ul class="list">
+                            <li class="list-group-item text-sm text-white">
+                                <a href="#section_6" class="btn link">Payment</a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-12 text-end">
