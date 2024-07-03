@@ -6,7 +6,7 @@
         <meta name="description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works."/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="ratuity - Digital Marketing and Pulishing" />
+        <meta property="og:title" content="Gratuity - Digital Marketing and Publishing" />
         <meta property="og:description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works." />
         <meta property="og:image" content="{{ Vite::asset('resources/images/logo.png') }}" />
 
@@ -56,10 +56,6 @@
 
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_6">Payment</a>
                         </li>
                     </ul>
                 </div>
@@ -481,8 +477,12 @@
         <footer class="site-footer" id="">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <!-- Content for the first column goes here -->
+                    <div class="col-lg-6 col-md-6 col-12 ">
+                        <ul class="list">
+                            <li class="list-group-item text-sm text-white">
+                                <a href="#section_6" class="btn link">Payment</a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-12 text-end">
