@@ -73,7 +73,9 @@
                                     <p class="featured-block-text"><strong>FOUNDATIONAL</strong> </p>
                                 </a>
                                 <p style="text-align: justify;">
-                                    Whether you need a digital book or a softcover, the Austen bundle incorporates all the essential tools required for your publishing venture including spread and inside customization, picture inclusions, online appropriation, and more                                </p>
+                                    Whether you need a digital book or a softcover, the Austen bundle incorporates all the essential tools required for your
+                                    publishing venture including spread and inside customization, picture inclusions, online appropriation, and more
+                                </p>
                             </div>
                         </div>
 
@@ -85,7 +87,10 @@
                                     <p class="featured-block-text"><strong>COMPETENT</strong> </p>
                                 </a>
                                 <p style="text-align: justify;">
-                                    Hardcover publishing with all the most well-known administrations and more showcasing muscle that focuses on the colorful sides of the book covers and interior designs. A gigantic worth stuck with next-level additional items that will make your book sparkle.                            </div>
+                                    Hardcover publishing with all the most well-known administrations and more showcasing muscle that focuses on the colorful sides of the book covers and interior designs.
+                                    A gigantic worth stuck with next-level additional items that will make your book sparkle.
+                                </p>
+                            </div>
                         </div>
 
 
@@ -96,7 +101,9 @@
                                     <p class="featured-block-text"><strong>VIRTUOSO</strong> </p>
                                 </a>
                                 <p style="text-align: justify;">
-                                    Whether you need a digital book or a softcover, the Austen bundle incorporates all the essential tools required for your publishing venture including spread and inside customization, picture inclusions, online appropriation, and more                                </p>
+                                    Whether you need a digital book or a softcover, the Austen bundle incorporates all the essential tools required for your publishing venture including spread and inside customization, picture inclusions, online appropriation,
+                                    and more
+                                </p>
                             </div>
                         </div>
                     </div>
