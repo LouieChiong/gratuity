@@ -10,7 +10,7 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-FNUlX_xA.css",
+    "file": "assets/template-DEaJNDkQ.css",
     "src": "resources/css/template.css",
     "isEntry": true
   },
@@ -53,6 +53,10 @@
   "resources/fonts/bootstrap-icons.woff2": {
     "file": "assets/bootstrap-icons-Ba0gDiEa.woff2",
     "src": "resources/fonts/bootstrap-icons.woff2"
+  },
+  "resources/images/Artboard 6.png": {
+    "file": "assets/Artboard 6-DmeJQTu0.png",
+    "src": "resources/images/Artboard 6.png"
   },
   "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg": {
     "file": "assets/portrait-beautiful-young-woman-standing-grey-wall-CuwLOpO5.jpg",

@@ -13,11 +13,11 @@
                 Whether you need a digital book or a softcover, the Austen bundle incorporates all the essential tools required for your publishing venture including spread and inside customization, picture inclusions, online appropriation, and More
             </p>
 
-            <p class="fs-4 fw-bold">
+            {{-- <p class="fs-4 fw-bold">
                 Starts at <strong class="text-danger">$999</strong>
-            </p>
+            </p> --}}
 
-            <a href="{{ route('publishing.foundational') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a>
+            {{-- <a href="{{ route('publishing.foundational') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a> --}}
         </div>
     </div>
 
@@ -31,10 +31,10 @@
                 Hardcover publishing with all the most well-known administrations and more showcasing muscle that focuses on the colorful sides of the book covers and interior designs. A gigantic worth stuck with next-level additional items that will make your book sparkle.
             </p>
 
-            <p class="fs-4 fw-bold">
+            {{-- <p class="fs-4 fw-bold">
                 Starts at <strong class="text-danger">$2,999</strong>
-            </p>
-            <a href="{{ route('publishing.competent') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a>
+            </p> --}}
+            {{-- <a href="{{ route('publishing.competent') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a> --}}
         </div>
     </div>
 
@@ -48,10 +48,10 @@
                 Whether you need a digital book or a softcover, the Austen bundle incorporates all the essential tools required for your publishing venture including spread and inside customization, picture inclusions, online appropriation, and more
             </p>
 
-            <p class="fs-4 fw-bold">
+            {{-- <p class="fs-4 fw-bold">
                 Starts at <strong class="text-danger">$5,999</strong>
             </p>
-            <a href="{{ route('publishing.virtouso') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a>
+            <a href="{{ route('publishing.virtouso') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a> --}}
         </div>
     </div>
 @endsection
