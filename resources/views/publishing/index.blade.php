@@ -17,7 +17,7 @@
                 Starts at <strong class="text-danger">$999</strong>
             </p> --}}
 
-            {{-- <a href="{{ route('publishing.foundational') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a> --}}
+            <a href="{{ route('publishing.foundational') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a>
         </div>
     </div>
 
@@ -34,7 +34,7 @@
             {{-- <p class="fs-4 fw-bold">
                 Starts at <strong class="text-danger">$2,999</strong>
             </p> --}}
-            {{-- <a href="{{ route('publishing.competent') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a> --}}
+            <a href="{{ route('publishing.competent') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a>
         </div>
     </div>
 
@@ -50,8 +50,8 @@
 
             {{-- <p class="fs-4 fw-bold">
                 Starts at <strong class="text-danger">$5,999</strong>
-            </p>
-            <a href="{{ route('publishing.virtouso') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a> --}}
+            </p> --}}
+            <a href="{{ route('publishing.virtouso') }}" class="w-50 p-2 secondary-color mb-5">+ Learn More</a>
         </div>
     </div>
 @endsection
