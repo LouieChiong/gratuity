@@ -27,17 +27,17 @@ Route::get('/publishing', function () {
     return view('publishing.index');
 })->name('publishing');
 
-// Route::get('/publishing/foundational', function () {
-//     return view('publishing.foundational');
-// })->name('publishing.foundational');
+Route::get('/publishing/foundational', function () {
+    return view('publishing.foundational');
+})->name('publishing.foundational');
 
-// Route::get('/publishing/competent', function () {
-//     return view('publishing.competent');
-// })->name('publishing.competent');
+Route::get('/publishing/competent', function () {
+    return view('publishing.competent');
+})->name('publishing.competent');
 
-// Route::get('/publishing/virtouso', function () {
-//     return view('publishing.virtouso');
-// })->name('publishing.virtouso');
+Route::get('/publishing/virtouso', function () {
+    return view('publishing.virtouso');
+})->name('publishing.virtouso');
 
 Route::get('/marketing', function () {
     return view('marketing');
