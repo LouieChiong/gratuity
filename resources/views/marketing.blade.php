@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <link rel="icon" href="{{ Vite::asset('resources/images/logo.ico')}}">
-        <title>Gratuity - Digital Marketing and Pulishing</title>
+        <title>Gratuity - Digital Marketing and Publishing</title>
         <meta name="description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works."/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
