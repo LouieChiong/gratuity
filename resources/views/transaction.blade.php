@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <link rel="icon" href="{{ Vite::asset('resources/images/logo.ico')}}">
-        <title>Gratuity - Digital Marketing and Publishing</title>
+        <title>Gratuity - Digital Marketing and Top Tier Literary Promotions </title>
         <meta name="description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works."/>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:title" content="Gratuity - Digital Marketing and Publishing" />
+        <meta property="og:title" content="Gratuity - Digital Marketing and Top Tier Literary Promotions" />
         <meta property="og:description" content="Empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the creation, publication, and promotion of their literary works." />
         <meta property="og:image" content="{{ Vite::asset('resources/images/logo.png') }}" />
 
