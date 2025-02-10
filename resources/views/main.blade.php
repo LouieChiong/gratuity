@@ -494,17 +494,18 @@
                             <span>info@gratuityglobal.org</span>
                         </p>
                         <p class="text-white mb-2">
-                            <i class="bi-telephone me-2"></i>
-                            <span> (888) 290-0987</span>
-                        </p>
-                        <p class="text-white mb-2">
                             <i class="bi-telephone-forward me-2"></i>
-                            <span> 372-712-1136</span>
+                            <span>Toll Free Number</span>
+                            <br>
+                            <span>1-888-279-9742</span>
                         </p>
                         <p class="text-white mt-3">
                             <i class="bi-geo-alt me-2"></i>
-                            9350 Wilshire Blvd, Suite 203, <br>
-                            Beverly Hills, CA 90212
+                            312 W. 2nd St #1099
+                            <br>
+                            Casper, WY 82601
+                            <br>
+                            United States
                         </p>
                     </div>
                 </div>
