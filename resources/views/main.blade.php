@@ -595,13 +595,30 @@
         </div>
 
         <script>
+            function setCookie(name, value, days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                document.cookie = name + "=" + value + "; expires=" + date.toUTCString() + "; path=/";
+            }
+
+            function getCookie(name) {
+                let cookies = document.cookie.split("; ");
+                for (let i = 0; i < cookies.length; i++) {
+                    let cookie = cookies[i].split("=");
+                    if (cookie[0] === name) {
+                        return cookie[1];
+                    }
+                }
+                return null;
+            }
+
             function acceptCookies() {
                 document.getElementById("cookie-banner").classList.add("d-none");
-                localStorage.setItem("cookiesAccepted", "true");
+                setCookie("cookiesAccepted", "true", 7);
             }
 
             window.onload = function() {
-                if (localStorage.getItem("cookiesAccepted") === "true") {
+                if (getCookie("cookiesAccepted") === "true") {
                     document.getElementById("cookie-banner").classList.add("d-none");
                 }
             };
