@@ -321,8 +321,8 @@
                                                     <br>
                                                     <br>
                                                 <i>
-                                                    I want to thank you again and your whole team  for such a great experience and a job well-done.
-                                                    The professionalism in your company is what makes you so unique.
+                                                    I want to thank you again and your whole team  for such a great experience and a job well-done. 
+                                                    The professionalism in your company is what makes you so unique. 
                                                     Your dedication to each author is certainly a key to your success
                                                 </i>
                                             </p>
@@ -396,90 +396,40 @@
             <section class="section-padding section-bg" id="section_5">
                 <div class="container">
                     <div class="row">
-                        <div class="container">
-                            <div class="row row-cols-5 gy-5">
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/adlibris.png') }}" width="90" height="auto" class="bookstore-icons" title="Adlibris" data-bs-toggle="tooltip"  alt="">
+                        <div class="col-lg-6 col-12 mx-auto">
+                            @if (session('message'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong> {{ session('message') }}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/agapea.png') }}" width="90" height="auto" class="bookstore-icons" title="Agapea" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/ALS-1.png') }}" width="90" height="auto" class="bookstore-icons" title="ALS Library" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/Amazon.png') }}" width="90" height="auto" class="bookstore-icons" title="Amazon" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/BarnesAndNoble.png') }}" width="90" height="auto" class="bookstore-icons" title="Barnse and Noble" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/bertrams.png') }}" width="90" height="auto" class="bookstore-icons" title="Bertrams" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/book-depository.png') }}" width="90" height="auto" class="bookstore-icons" title="Book Depository" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/blackwell.png') }}" width="90" height="auto" class="bookstore-icons" title="Blackwell" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/BooksExpress.png') }}" width="90" height="auto" class="bookstore-icons" title="Books Express" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/Booktopia.png') }}" width="90" height="auto" class="bookstore-icons" title="Booktopia" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/chapters.png') }}" width="90" height="auto" class="bookstore-icons" title="Charpters" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/eden.png') }}" width="90" height="auto" class="bookstore-icons" title="Eden" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/fishpond.png') }}" width="90" height="auto" class="bookstore-icons" title="Adlibris" data-bs-toggle="fishpond"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/foyles.png') }}" width="90" height="auto" class="bookstore-icons" title="Foyles" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/gardners.png') }}" width="90" height="auto" class="bookstore-icons" title="Gardners" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/Ingram.png') }}" width="90" height="auto" class="bookstore-icons" title="Ingram" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/jamesBennett.png') }}" width="90" height="auto" class="bookstore-icons" title="James Bennett" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/Kobo.png') }}" width="90" height="auto" class="bookstore-icons" title="Kobo" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/mallory.png') }}" width="90" height="auto" class="bookstore-icons" title="Mallory" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/PBS.png') }}" width="90" height="auto" class="bookstore-icons" title="PBS" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/peterpal.png') }}" width="90" height="auto" class="bookstore-icons" title="Peterpal" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/super-book.png') }}" width="90" height="auto" class="bookstore-icons" title="Super books deals" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/target.png') }}" width="90" height="auto" class="bookstore-icons" title="Target" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/the-nile.png') }}" width="90" height="auto" class="bookstore-icons" title="The nile" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/trust-media.png') }}" width="90" height="auto" class="bookstore-icons" title="Trust Media" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/walmart.png') }}" width="90" height="auto" class="bookstore-icons" title="Walmart" data-bs-toggle="tooltip"  alt="">
-                                </div>
-                                <div class="col">
-                                    <img src="{{ Vite::asset('resources/images/bookstore/waterstone.png') }}" width="90" height="auto" class="bookstore-icons" title="Waterstones" data-bs-toggle="tooltip"  alt="">
-                                </div>
+                            @endif
+                            @if (session('error'))
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <strong> {{ session('error') }}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             </div>
+                            @endif
+                            <form class="custom-form contact-form bg-white" action="{{ route('email')}}" method="post">
+                                @csrf
+                                <h2>Contact Us</h2>
+                                <p class="mb-4">You can just send an email</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input type="text" name="first_name" id="first_name" class="form-control" style="background: #f0f8ff" placeholder="First Name" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <input type="text" name="last_name" id="last_name" class="form-control"  style="background: #f0f8ff" placeholder="Last Name" required>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <input type="text" name="contact_number" id="contact_number" class="form-control"  style="background: #f0f8ff" placeholder="Contact Number" required>
+                                    </div>
+                                </div>
+
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"  style="background: #f0f8ff" placeholder="Your email address" required>
+                                <textarea name="message" rows="5" class="form-control" style="background: #f0f8ff" id="message" placeholder="What can we help you?"></textarea>
+
+                                <button type="submit" class="form-control">Send Message</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -488,7 +438,39 @@
             <section class="section-padding" id="section_6">
                 <div class="container">
                     <div class="row">
-
+                        <div class="col-lg-6 col-12 mx-auto">
+                            @if (session('message-paypal'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong> {{ session('message-paypal') }}</strong>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            @endif
+                            @if (session('error-paypal'))
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <strong> {{ session('error-paypal') }}</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            @endif
+                            <form class="custom-form contact-form bg-white" action="{{ route('processTransaction')}}" method="post">
+                                @csrf
+                                <h2>Pay Invoice</h2>
+                                <p class="mb-4">You can pay you invoice thru paypal</p>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <input type="text" name="invoice" class="form-control" style="background: #f0f8ff" placeholder="Invoice Number" required>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
+                                        <input type="number" name="amount" class="form-control"  style="background: #f0f8ff" placeholder="Amount" required>
+                                    </div>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center; width: 100%">
+                                    <button type="submit" class="form-control text-center" style="width: 380px">
+                                        <img src="{{ Vite::asset('resources/images/icons/paypal.png') }}" width="90" height="auto">
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
