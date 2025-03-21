@@ -362,9 +362,20 @@ strong {
 -----------------------------------------*/
 .navbar {
   background: var(--white-color);
-  z-index: 9;
+  z-index: 9999;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.custom-navbar {
+  position: absolute; /* Overlay the hero section */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Keep it above everything */
+  transition: background 0.3s ease-in-out;
+  height: 100px !important;
+  border-bottom:1px solid rgba(165, 165, 165, 0.514);
 }
 
 .navbar-brand {
@@ -391,7 +402,39 @@ strong {
   height: auto;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
+.logo-text {
+  color:white;
+
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  display: inline-block;
+  color: var(--white-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--custom-btn-bg-color);
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+
+/* .navbar-expand-lg .navbar-nav .nav-link {
   margin-right: 0;
   margin-left: 0;
   padding: 20px;
@@ -399,9 +442,9 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--p-color);
+  color: var(--white-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-light);
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -411,7 +454,7 @@ strong {
 .navbar-nav .nav-link:hover {
   background: transparent;
   color: var(--primary-color);
-}
+} */
 
 .dropdown-menu {
   background: var(--white-color);
@@ -599,15 +642,70 @@ strong {
   padding: 100px 100px 50px 100px;
 }
 
+
+#hero-slide .caption {
+  position: absolute;
+  /* background-color: rgba(121, 14, 164, 0.404); */
+  padding: 20px;
+  color: white;
+  top: 40%;
+  left: 10%;
+
+  /* Initial State */
+  opacity: 0;
+  transform: translateY(50px);
+
+  /* Apply animation */
+  animation: slideIn 1s ease-out forwards;
+}
+
+#hero-slide .contact-btn {
+  border: 2px solid var(--custom-btn-bg-color) !important;
+  color: white;
+  width: 200px;
+}
+
+#hero-slide .contact-btn:hover {
+  background: var(--custom-btn-bg-color) !important;
+}
+
 /* #hero-slide .carousel-caption h1 {
   padding-left: 110px;
 } */
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Adjust the opacity for darkness */
+  z-index: 1;
+}
 
 .carousel-image {
   display: block;
   width: 100%;
   min-height: 680px;
 }
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(53, 53, 53, 0.384); /* Adjust the opacity for darkness */
+  z-index: 1;
+}
+
+.carousel-item .caption {
+  font-size: var(--p-font-size);
+  color: var(--white-color);
+  z-index: 999;
+}
+
+
 
 #hero-slide .carousel-indicators-wrap {
   position: absolute;
@@ -1446,10 +1544,10 @@ blockquote::before {
     padding: 35px;
   }
 
-  .navbar {
+  /* .navbar {
     padding-top: 6px;
     padding-bottom: 6px;
-  }
+  } */
 
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 30px;
@@ -1670,9 +1768,7 @@ blockquote::before {
   }
 }
 
-/*---------------------------------------
-  COMMON UTILITIES
------------------------------------------*/
+
 
 .text-primary {
   color: var(--primary-color) !important;
@@ -1691,4 +1787,19 @@ blockquote::before {
 
 .link:hover {
   color: var(--custom-btn-bg-hover-color);
+}
+
+/*---------------------------------------
+  COMMON UTILITIES
+-----------------------------------------*/
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

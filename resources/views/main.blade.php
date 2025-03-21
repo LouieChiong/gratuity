@@ -23,44 +23,38 @@
     </head>
 
     <body id="section_1 position-relative">
-
-        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
-            <div class="container">
-                <a class="navbar-brand" href="/">
-                    <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid">
-                    <span>
-                        GRATUITY
-                    </span>
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#top">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">Our Services</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">Who we are</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Reviews</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
-                        </li>
-                    </ul>
+        <nav class="custom-navbar navbar-expand-lg d-flex justify-content-lg-evenly justify-content-md-between">
+                <div class="d-flex align-items-center px-1 py-2 text-decoration-none">
+                    <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid me-2">
+                    <h4 class="m-0 logo-text">GRATUITY</h4>
                 </div>
-            </div>
+
+                <div class="px-sm-4 px-lg-0 mt-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto gap-5">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#top">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Who we are</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </nav>
 
         <main>
@@ -71,14 +65,20 @@
                             <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <div style="position:absolute; background-color: rgba(122, 14, 164, 0.5); padding:20px 50px 20px 50px; color: white; bottom:20px; right:40px; ">
+                                        <div class="carousel-overlay"></div> <!-- Overlay -->
+                                        <div class="caption">
                                             <h1>Turning Ideas Into Ink</h1>
-                                            <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
-                                        </div>
-                                        <img src="{{ Vite::asset('resources/images/slide/image_1.jpg') }}" class="carousel-image img-fluid" alt="...">
-                                    </div>
+                                            <small class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</small>
 
-                                    <div class="carousel-item">
+                                            <div class="mt-3 d-flex">
+                                                <button type="button" class="btn contact-btn">Contact Us</button>
+                                            </div>
+                                        </div>
+
+                                        <img src="{{ Vite::asset('resources/images/background/book1.jpg') }}" class="carousel-image img-fluid" alt="...">
+                                    </div>
+{{--
+                                    <div class="">
                                         <div style="position:absolute; background-color: rgba(122, 14, 164, 0.5); padding:20px 50px 20px 50px; color: white; bottom:20px; right:40px; ">
                                             <h1 class="texst-white">Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
@@ -92,7 +92,7 @@
                                             <h1>Turning Ideas Into Ink</h1>
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
-                                        <img src="{{ Vite::asset('resources/images/slide/image_3.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
+                                        <img src="{{ Vite::asset('resources/images/background/book4.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
 
                                     <div class="carousel-item">
                                         <div style="position:absolute; background-color: rgba(122, 14, 164, 0.5); padding:20px 50px 20px 50px; color: white; bottom:20px; right:40px; ">
@@ -100,8 +100,8 @@
                                             <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                         </div>
                                         <img src="{{ Vite::asset('resources/images/slide/image_4.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
-                                </div>
-
+                                </div> --}}
+{{--
                                 <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
@@ -110,7 +110,7 @@
                                 <button class="carousel-control-next" type="button" data-bs-target="#hero-slide" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
-                                </button>
+                                </button> --}}
                             </div>
                         </div>
 
@@ -485,12 +485,12 @@
                 </div>
             </section>
 
-            <section class="section-padding" id="section_6">
+            {{-- <section class="section-padding" id="section_6">
                 <div class="container">
                     <div class="row">
 
                 </div>
-            </section>
+            </section> --}}
         </main>
 
         <footer class="site-footer" id="">
@@ -644,7 +644,7 @@
 
         @vite([
             'resources/js/jquery.sticky.js',
-            'resources/js/click-scroll.js',
+            // 'resources/js/click-scroll.js',
             'resources/js/counter.js',
             'resources/js/custom.js',
         ])
