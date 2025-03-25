@@ -16,6 +16,7 @@
         { "src": "/resources/images/icons/(.*)", "dest": "/public/images/icons/" },
         { "src": "/resources/images/causes/(.*)", "dest": "/public/images/causes/" },
         { "src": "/resources/images/news/(.*)", "dest": "/public/images/news/" },
+        { "src": "/resources/images/background", "dest": "/public/images/background" },
         { "src": "/resources/images/(.*)", "dest": "/public/images/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],

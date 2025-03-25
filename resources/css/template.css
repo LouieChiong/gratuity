@@ -528,7 +528,7 @@ strong {
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-  background: transparent;
+  background: white;
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
@@ -548,7 +548,7 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--dark-color);
+  background: white;
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -564,7 +564,7 @@ strong {
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--dark-color);
+  background: white;
   width: 30px;
   height: 2px;
   content: '';
@@ -657,6 +657,7 @@ strong {
 
   /* Apply animation */
   animation: slideIn 1s ease-out forwards;
+  z-index: 10 !important;
 }
 
 #hero-slide .contact-btn {
@@ -745,27 +746,64 @@ strong {
 /*---------------------------------------
   FEATURE BLOCK
 -----------------------------------------*/
-.featured-block {
+  /* .featured-block {
   text-align: center;
   transition: all 0.5s ease;
   min-height: 256px;
   padding: 15px;
-}
+} */
 
-.featured-block:hover {
+/* .featured-block:hover {
   background: var(--white-color);
   border-radius: var(--border-radius-medium);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+} */
+
+/* .featured-block:hover .featured-block-image {
+  transform: scale(1.02);
+} */
+
+.featured-block {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  height: 246px;
+  width: 100%;
 }
 
 .featured-block:hover .featured-block-image {
-  transform: scale(0.75);
+  transform: scale(1.05);
+}
+
+.overlay-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.849); /* Dark overlay */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 999 !important;
+  font-weight: var(--font-weight-semibold) !important;
+}
+
+.featured-block:hover .overlay-block {
+  opacity: 1;
 }
 
 .featured-block-image {
   display: block;
-  margin: auto;
   transition: all 0.5s;
+  width: 100%;
+  object-fit: cover;
 }
 
 .featured-block:hover .featured-block-text {
@@ -779,6 +817,9 @@ strong {
   transition: all 0.5s;
 }
 
+.featured-block-text:hover {
+  color: var(--custom-btn-bg-color);
+}
 
 /*---------------------------------------
   ABOUT

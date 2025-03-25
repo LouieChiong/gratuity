@@ -32,7 +32,7 @@
                 <div class="px-sm-4 px-lg-0 mt-3">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon text-white"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarNav">
@@ -47,7 +47,7 @@
                                 <a class="nav-link click-scroll" href="#section_3">Who we are</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                                <a class="nav-link click-scroll" href="#">Bookstore</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
@@ -64,17 +64,17 @@
                         <div class="col-lg-12 col-12 p-0">
                             <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
+                                    <div class="caption">
+                                        <h1>Turning Ideas Into Ink</h1>
+                                        <small class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</small>
+
+                                        <div class="mt-3 d-flex">
+                                            <button type="button" class="btn contact-btn">Contact Us</button>
+                                        </div>
+                                    </div>
+
                                     <div class="carousel-item active">
                                         <div class="carousel-overlay"></div> <!-- Overlay -->
-                                        <div class="caption">
-                                            <h1>Turning Ideas Into Ink</h1>
-                                            <small class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</small>
-
-                                            <div class="mt-3 d-flex">
-                                                <button type="button" class="btn contact-btn">Contact Us</button>
-                                            </div>
-                                        </div>
-
                                         <img src="{{ Vite::asset('resources/images/background/book1.jpg') }}" class="carousel-image img-fluid" alt="...">
                                     </div>
 {{--
@@ -127,41 +127,59 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
-                                <a href="{{ route('publishing') }}" class="d-block">
-                                    <img src="{{ Vite::asset('resources/images/icons/publishing.png') }}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-
-                                    <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
-                                </a>
+                                <div class="overlay-block">
+                                    <p>We provide top-quality publishing services, helping you share your stories, articles, and books with the world.</p>
+                                </div>
+                                <img src="{{ Vite::asset('resources/images/publishing.jpg') }}" class="featured-block-image img-fluid"/>
                             </div>
+                            <a href="{{ route('publishing') }}" class="d-block text-center">
+                                <p class="featured-block-text"><strong>PUBLISHING</strong> </p>
+                            </a>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4 ">
                             <div class="featured-block d-flex flex-column justify-content-center align-items-center">
-                                <a href="{{ route('marketing') }}" class="d-block">
-                                    <img src="{{ Vite::asset('resources/images/icons/marketing_1.png')}}" class="featured-block-image img-fluid" alt="" style="height: 150px !important;">
-                                    <p class="featured-block-text"><strong>MARKETING</strong> </p>
-                                </a>
+                                <div class="overlay-block">
+                                    <p>We provide top-tier marketing solutions to boost your brand’s visibility and drive conversions.</p>
+                                </div>
+                                <img src="{{ Vite::asset('resources/images/marketing.png') }}" class="featured-block-image img-fluid"/>
                             </div>
+                            <a href="{{ route('marketing') }}" class="d-block text-center">
+                                <p class="featured-block-text"><strong>MARKETING</strong> </p>
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section-padding section-bg" id="section_3">
+            <section class="section-padding section-bg col-sm-12" id="section_3">
                 <div class="container">
                     <div class="row">
-
                         <div class="col-lg-12 col-12">
                             <div class="custom-text-box">
-                                <h2 class="mb-2">Who we are</h2>
-
-                                <p class="mb-0" style="text-align: justify;">
-                                    <span style="color:#7c35ba; font-weight: bold;">GRATUITY</span>,
-                                    leveraging three decades of unwavering commitment and expertise in the realm of books, stands as a beacon of excellence in the provision of comprehensive publishing solutions. Our mission is to empower individuals and businesses by imparting publishing wisdom, facilitating informed decisions, and cultivating a path towards sustainable prosperity.
-                                    Dedicated to the art and precision of literary management, Gratuity thrives on its foundational principles of integrity, accuracy, and client-centricity.
+                                <h2 class="mb-4 text-md-start text-sm-center">About us</h2>
+                                <div class="row">
+                                    <div class="col-md-5 d-sm-none d-md-flex">
+                                        <img src="{{ Vite::asset('resources/images/about.jpg') }}" class="featured-block-image img-fluid h-full" alt="">
+                                    </div>
+                                    <div class="col-md-7 col-sm-12">
+                                        <div>
+                                            <p style="font-size: 18px;">
+                                                <span style="color:#7c35ba; font-weight: bold">GRATUITY</span>,
+                                                leveraging three decades of unwavering commitment and expertise in the realm of books, stands as a beacon of excellence in the provision of comprehensive publishing solutions. Our mission is to empower individuals and businesses by imparting publishing wisdom, facilitating informed decisions, and cultivating a path towards sustainable prosperity.
+                                                Dedicated to the art and precision of literary management, Gratuity thrives on its foundational principles of integrity, accuracy, and client-centricity.
+                                            </p>
+                                        </div>
+                                        <div class="mt-4">
+                                            <p style="font-size: 18px"><b style="color:#7c35ba; font-weight: bold">Our mission</b> is to empower authors, from aspiring writers to seasoned wordsmiths, by providing a comprehensive and collaborative platform for the
+                                                creation, publication, and promotion of their literary works. We believe in the transformative power of
+                                                stories and aim to amplify diverse voices that resonate with readers across genres.</p>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
 
-                            <div class="row">
+                            {{-- <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="custom-text-box d-flex flex-wrap d-lg-block mb-lg-0 " style="padding-bottom: 110px;">
                                         <h2 class="counter-text">Mission</h2>
@@ -206,7 +224,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
 
                     </div>
