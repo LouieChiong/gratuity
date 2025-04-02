@@ -23,38 +23,72 @@
     </head>
 
     <body id="section_1 position-relative">
-        <nav class="custom-navbar navbar-expand-lg d-flex justify-content-lg-evenly justify-content-md-between">
-                <div class="d-flex align-items-center px-1 py-2 text-decoration-none">
-                    <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid me-2">
-                    <h4 class="m-0 logo-text">GRATUITY</h4>
-                </div>
+        <nav class="primary-navbar navbar-expand-lg d-flex justify-content-lg-evenly justify-content-md-between">
+            <div class="d-flex align-items-center px-1 py-2 text-decoration-none">
+                <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid me-2">
+                <h4 class="m-0 logo-text">GRATUITY</h4>
+            </div>
 
-                <div class="px-sm-4 px-lg-0 mt-3">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon text-white"></span>
-                    </button>
+            <div class="px-sm-4 px-lg-0 mt-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto gap-5">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#top">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">Our Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Who we are</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#">Bookstore</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse border-2" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Who we are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#">Bookstore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+        </nav>
+
+        <nav class="d-none secondary-navbar navbar-expand-lg d-flex justify-content-lg-evenly justify-content-md-between">
+            <div class="d-flex align-items-center px-1 py-2 text-decoration-none">
+                <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid me-2">
+                <h4 class="m-0 logo-text">GRATUITY</h4>
+            </div>
+
+            <div class="px-sm-3 px-lg-0 mt-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse bg-white bg-md-transparent" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Who we are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#">Bookstore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
         <main>
@@ -514,10 +548,14 @@
         <footer class="site-footer" id="">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 ">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <h5 class="site-footer-title mb-3 text-white">Quick Link</h5>
                         <ul class="list">
-                            <li class="list-group-item text-sm text-white">
-                                <a href="#section_6" class="btn link">Payment</a>
+                            <li class="list-group-item text-white">
+                                <a href="#" class="btn link">Contact Us</a>
+                            </li>
+                            <li class="list-group-item text-white">
+                                <a href="#" class="btn link">Services</a>
                             </li>
                         </ul>
                     </div>
@@ -525,17 +563,17 @@
                     <div class="col-lg-6 col-md-6 col-12 text-end">
                         <!-- Adding the 'text-end' class to align content to the right -->
                         <h5 class="site-footer-title mb-3 text-white">Contact Information</h5>
-                        <p class="text-white mb-2">
+                        <p class="info text-white mb-2">
                             <i class="bi-envelope me-2"></i>
                             <span>info@gratuityglobal.org</span>
                         </p>
-                        <p class="text-white mb-2">
+                        <p class="info text-white mb-2">
                             <i class="bi-telephone-forward me-2"></i>
                             <span>Toll Free Number</span>
                             <br>
                             <span>1-888-279-9742</span>
                         </p>
-                        <p class="text-white mt-3">
+                        <p class="info text-white mt-3">
                             <i class="bi-geo-alt me-2"></i>
                             312 W. 2nd St #1099
                             <br>
@@ -658,6 +696,36 @@
                     document.getElementById("cookie-banner").classList.add("d-none");
                 }
             };
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let lastScrollTop = 0;
+            const scrollOffset = 100; // Offset before secondary navbar fades in/out
+            const primaryNavbar = document.querySelector(".primary-navbar");
+            const secondaryNavbar = document.querySelector(".secondary-navbar");
+
+            window.addEventListener("scroll", function () {
+                let scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+                if (scrollTop > scrollOffset) {
+                    // Scrolling past offset: Fade out primary, fade in secondary
+                    primaryNavbar.style.opacity = "0";
+                    secondaryNavbar.classList.remove("d-none");
+                    secondaryNavbar.style.opacity = "1";
+                } else {
+                    // Scroll back to 100px or less: Fade out secondary, fade in primary
+                    primaryNavbar.style.opacity = "1";
+                    secondaryNavbar.style.opacity = "0";
+                    setTimeout(() => {
+                        if (scrollTop <= scrollOffset) {
+                            secondaryNavbar.classList.add("d-none");
+                        }
+                    }, 300); // Delay to prevent flickering
+                }
+
+                lastScrollTop = scrollTop;
+            });
+        });
+
         </script>
 
         @vite([
