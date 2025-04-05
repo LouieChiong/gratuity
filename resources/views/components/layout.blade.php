@@ -23,105 +23,29 @@
     </head>
 
     <body id="section_1">
-        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
-            <div class="container">
-                <a class="navbar-brand" href="/">
-                    <img src="{{ Vite::asset('resources/images/logo.png') }}" class="logo img-fluid">
-                    <span>
-                        GRATUITY
-                    </span>
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="/#section_2">Our Services</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="/#section_3">Who we are</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="/#section_4">Reviews</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="/#section_5">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <main>
-            <section class="section-padding p-5">
-                <div class="container">
-                    <div class="row">
-                        @yield('content')
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer" id="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <ul class="list">
-                            <li class="list-group-item text-sm text-white">
-                                <a href="/#section_6" class="btn link">Payment</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-12 text-end">
-                        <!-- Adding the 'text-end' class to align content to the right -->
-                        <h5 class="site-footer-title mb-3 text-white">Contact Information</h5>
-                        <p class="text-white mb-2">
-                            <i class="bi-envelope me-2"></i>
-                            <span>info@gratuityglobal.org</span>
-                        </p>
-                        <p class="text-white mb-2">
-                            <i class="bi-telephone-forward me-2"></i>
-                            <span>Toll Free Number</span>
-                            <br>
-                            <span>1-888-279-9742</span>
-                        </p>
-                        <p class="text-white mt-3">
-                            <i class="bi-geo-alt me-2"></i>
-                            312 W. 2nd St #1099
-                            <br>
-                            Casper, WY 82601
-                            <br>
-                            United States
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="site-footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-7 col-12">
-                            <p class="copyright-text mb-0">Copyright © 2020 <a href="index.html">Gratuity</a>.
+        @include('components.navbar')
+        @if(Route::is('index') || Route::is('marketing') || Route::is('bookstore'))
+            <main>
+                @yield('content')
+            </main>
+        @else
+            <main>
+                <section class="section-padding p-5">
+                    <div class="container">
+                        <div class="row">
+                            @yield('content')
                         </div>
                     </div>
-                </div>
-            </div>
-        </footer>
+                </section>
+            </main>
+        @endif
+        @include('components.footer')
+
+        @yield('scripts')
 
         @vite([
             'resources/js/jquery.sticky.js',
-            'resources/js/click-scroll.js',
+            // 'resources/js/click-scroll.js',
             'resources/js/counter.js',
             'resources/js/custom.js',
         ])
