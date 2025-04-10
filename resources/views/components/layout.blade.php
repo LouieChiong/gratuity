@@ -24,7 +24,10 @@
 
     <body id="section_1">
         @include('components.navbar')
-        @if(Route::is('index') || Route::is('marketing') || Route::is('bookstore'))
+        <main>
+            @yield('content')
+        </main>
+        {{-- @if(Route::is('index') || Route::is('marketing') || Route::is('bookstore'))
             <main>
                 @yield('content')
             </main>
@@ -38,7 +41,7 @@
                     </div>
                 </section>
             </main>
-        @endif
+        @endif --}}
         @include('components.footer')
 
         @yield('scripts')

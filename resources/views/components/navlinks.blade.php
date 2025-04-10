@@ -10,10 +10,10 @@
             <a class="nav-link click-scroll" href="#section_3">Who we are</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="#">Bookstore</a>
+            <a class="nav-link click-scroll" href="#section_4">Reviews</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+            <a class="nav-link click-scroll" href="/bookstore">Bookstore</a>
         </li>
     </ul>
 @else
@@ -35,7 +35,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="/#section_5">Contact Us</a>
+            <a class="nav-link click-scroll" href="/bookstore">Bookstore</a>
         </li>
     </ul>
 @endif

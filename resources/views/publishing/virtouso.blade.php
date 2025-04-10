@@ -1,8 +1,28 @@
 @extends('components.layout')
 @section('content')
-<div class="d-flex text-center justify-content-center align-items-center row">
+<section class="hero-section hero-section-full-height">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12 p-0">
+                <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="caption">
+                            <h1>VIRTUOSO</h1>
+                            <small>Services - publishing</small>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="carousel-overlay"></div> <!-- Overlay -->
+                            <img src="{{ Vite::asset('resources/images/background/image4.jpg') }}" class="carousel-image img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="d-flex text-center justify-content-center align-items-center row my-3 p-2">
     <div class="col-lg-8 col-md-8 gap-2">
-        <h2>VIRTUOSO</h2>
         <p style="text-align: justify;">
             The  <strong> VIRTUOSO</strong> Package gives readers a way to learn more about your book, provides access to countless potential readers and buyers through online marketing. Get connected to your audience through your own author website and have this peace of mind that your book can compete to others with its overall editing and evaluation service.
         </p>

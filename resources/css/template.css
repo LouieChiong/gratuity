@@ -323,6 +323,16 @@ strong {
   padding: 15px 25px;
 }
 
+.bookstore-btn {
+  border: 1px solid var(--custom-btn-bg-color);
+  border-radius: var(--border-radius-small);
+}
+
+.bookstore-btn:hover {
+  background: var(--custom-btn-bg-color);
+  border-radius: var(--border-radius-small);
+}
+
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
   color: var(--custom-btn-bg-color);
   margin-top: 8px;
@@ -1907,6 +1917,17 @@ blockquote::before {
   text-align: justify;
 }
 
+.card-title {
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.book-author {
+  font-size: 13px;
+  color: black;
+  font-weight: 600;
+}
 /*---------------------------------------
   COMMON UTILITIES
 -----------------------------------------*/
@@ -1924,4 +1945,41 @@ blockquote::before {
 
 .text-xs {
   font-size: 12px;
+}
+
+/*---------------------------------------
+  COMMON UTILITIES
+-----------------------------------------*/
+
+#services .service-block:hover .featured-block-image {
+  transform: scale(1.05);
+}
+
+#services .featured-block-text {
+  color: var(--primary-color);
+  font-size: var(--h5-font-size);
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+
+#services .featured-block-text:hover {
+  color: var(--custom-btn-bg-color);
+}
+
+#services .service-block{
+  color: var(--primary-color);
+  font-size: var(--h5-font-size);
+  margin-top: 20px;
+  transition: all 0.5s;
+  height: 530px;
+}
+
+.service-image {
+  height: 80px !important;
+  width: 100%;
+  object-fit: contain;
+}
+
+#services .service-btn {
+  font-size: 14px !important;
 }

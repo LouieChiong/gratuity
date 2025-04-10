@@ -10,7 +10,7 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-D-idfs6a.css",
+    "file": "assets/template-C0AxVo8b.css",
     "src": "resources/css/template.css",
     "isEntry": true
   },
@@ -74,9 +74,13 @@
     "file": "assets/nip_n_tuck-D-4rSdhT.jpg",
     "src": "resources/images/authors/nip_n_tuck.jpg"
   },
-  "resources/images/authors/return_summerfield.jpg": {
-    "file": "assets/return_summerfield-BUorIq94.jpg",
-    "src": "resources/images/authors/return_summerfield.jpg"
+  "resources/images/authors/return_of_summerfields.jpg": {
+    "file": "assets/return_of_summerfields-D0Qctsda.jpg",
+    "src": "resources/images/authors/return_of_summerfields.jpg"
+  },
+  "resources/images/authors/summerfield.jpg": {
+    "file": "assets/summerfield-BUorIq94.jpg",
+    "src": "resources/images/authors/summerfield.jpg"
   },
   "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg": {
     "file": "assets/portrait-beautiful-young-woman-standing-grey-wall-CuwLOpO5.jpg",
