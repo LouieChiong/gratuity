@@ -6,7 +6,7 @@
             <div class="col-lg-12 col-12 p-0">
                 <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="caption">
+                        <div class="caption d-flex flex-column align-items-md-center align-items-lg-start w-75">
                             <h1>COMPETENT</h1>
                             <small>Services - publishing</small>
                         </div>

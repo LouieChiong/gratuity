@@ -6,9 +6,9 @@
             <div class="col-lg-12 col-12 p-0">
                 <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="caption">
+                        <div class="caption d-flex flex-column align-items-md-center align-items-lg-start w-75">
                             <h1>Publising</h1>
-                            <small>Services</small>
+                            <h5 class="text-white">Services</h5>
                         </div>
                         <div class="carousel-item active">
                             <div class="carousel-overlay"></div> <!-- Overlay -->

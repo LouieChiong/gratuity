@@ -2,9 +2,19 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
+                <p class="text-white"><b>Quick Links</b></p>
                 <ul class="list">
                     <li class="list-group-item text-sm text-white">
-                        <a href="/#section_6" class="btn link">Payment</a>
+                        <a href="/#section_3" class="btn link">About Us</a>
+                    </li>
+                    <li class="list-group-item text-sm text-white">
+                        <a href="/publishing" class="btn link">Publishing</a>
+                    </li>
+                    <li class="list-group-item text-sm text-white">
+                        <a href="/marketing" class="btn link">Marketing</a>
+                    </li>
+                    <li class="list-group-item text-sm text-white">
+                        <a href="/bookstore" class="btn link">Bookstore</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +48,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-7 col-12">
-                    <p class="copyright-text mb-0">Copyright © 2020 <a href="index.html">Gratuity</a>.
+                    <p class="copyright-text mb-0">Copyright © 2020 <a href="/">Gratuity</a>.
                 </div>
             </div>
         </div>
