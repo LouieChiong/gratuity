@@ -27,28 +27,14 @@
         <main>
             @yield('content')
         </main>
-        {{-- @if(Route::is('index') || Route::is('marketing') || Route::is('bookstore'))
-            <main>
-                @yield('content')
-            </main>
-        @else
-            <main>
-                <section class="section-padding p-5">
-                    <div class="container">
-                        <div class="row">
-                            @yield('content')
-                        </div>
-                    </div>
-                </section>
-            </main>
-        @endif --}}
+
         @include('components.footer')
 
         @yield('scripts')
 
         @vite([
             'resources/js/jquery.sticky.js',
-            // 'resources/js/click-scroll.js',
+            'resources/js/click-scroll.js',
             'resources/js/counter.js',
             'resources/js/custom.js',
         ])

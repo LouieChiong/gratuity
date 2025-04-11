@@ -19,6 +19,21 @@
                                 <div class="carousel-overlay"></div> <!-- Overlay -->
                                 <img src="{{ Vite::asset('resources/images/background/book1.jpg') }}" class="carousel-image img-fluid" alt="...">
                             </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-overlay"></div> <!-- Overlay -->
+                                <img src="{{ Vite::asset('resources/images/background/book4.jpg') }}" class="carousel-image img-fluid" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-overlay"></div> <!-- Overlay -->
+                                <img src="{{ Vite::asset('resources/images/background/book2.jpg') }}" class="carousel-image img-fluid" alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-overlay"></div> <!-- Overlay -->
+                                <img src="{{ Vite::asset('resources/images/background/book3.jpg') }}" class="carousel-image img-fluid" alt="...">
+                            </div>
     {{--
                             <div class="">
                                 <div style="position:absolute; background-color: rgba(122, 14, 164, 0.5); padding:20px 50px 20px 50px; color: white; bottom:20px; right:40px; ">
@@ -34,7 +49,8 @@
                                     <h1>Turning Ideas Into Ink</h1>
                                     <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                 </div>
-                                <img src="{{ Vite::asset('resources/images/background/book4.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
+                                <img src="{{ Vite::asset('resources/images/background/book4.jpg') }}" class="carousel-image img-fluid" alt="...">
+                            </div>
 
                             <div class="carousel-item">
                                 <div style="position:absolute; background-color: rgba(122, 14, 164, 0.5); padding:20px 50px 20px 50px; color: white; bottom:20px; right:40px; ">
@@ -42,8 +58,8 @@
                                     <p> <span class="text-white">Your Story, Our Canvas – Publishing Success, Marketing Brilliance!</span></p>
                                 </div>
                                 <img src="{{ Vite::asset('resources/images/slide/image_4.jpg') }}" class="carousel-image img-fluid" alt="...">                                    </div>
-                        </div>
-    {{--
+                        </div>--}}
+
                         <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
@@ -52,7 +68,7 @@
                         <button class="carousel-control-next" type="button" data-bs-target="#hero-slide" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
-                        </button> --}}
+                        </button>
                     </div>
                 </div>
 
@@ -348,6 +364,48 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding section-bg" id="contact_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 mx-auto">
+                    @if (session('message'))
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong> {{ session('message') }}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
+                    @if (session('error'))
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <strong> {{ session('error') }}</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    @endif
+                    <form class="custom-form contact-form bg-white" action="{{ route('email')}}" method="post">
+                        @csrf
+                        <h2>Contact Us</h2>
+                        <p class="mb-4">You can just send an email</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <input type="text" name="first_name" id="first_name" class="form-control" style="background: #f0f8ff" placeholder="First Name" required>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <input type="text" name="last_name" id="last_name" class="form-control"  style="background: #f0f8ff" placeholder="Last Name" required>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12">
+                                <input type="text" name="contact_number" id="contact_number" class="form-control"  style="background: #f0f8ff" placeholder="Contact Number" required>
+                            </div>
+                        </div>
+
+                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"  style="background: #f0f8ff" placeholder="Your email address" required>
+                        <textarea name="message" rows="5" class="form-control" style="background: #f0f8ff" id="message" placeholder="What can we help you?"></textarea>
+
+                        <button type="submit" class="form-control">Send Message</button>
+                    </form>
                 </div>
             </div>
         </div>
