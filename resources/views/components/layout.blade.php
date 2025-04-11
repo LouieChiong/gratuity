@@ -34,7 +34,7 @@
 
         @vite([
             'resources/js/jquery.sticky.js',
-            'resources/js/click-scroll.js',
+            // 'resources/js/click-scroll.js',
             'resources/js/counter.js',
             'resources/js/custom.js',
         ])

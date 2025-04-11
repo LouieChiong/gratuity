@@ -10,10 +10,10 @@
             <a class="nav-link click-scroll" href="#section_3">Who we are</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+            <a class="nav-link click-scroll {{ Route::is('contact') ? 'active' : '' }}" href="/contact_us">Contact Us</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="/bookstore">Bookstore</a>
+            <a class="nav-link click-scroll {{ Route::is('bookstore') ? 'active' : '' }}" href="/bookstore">Bookstore</a>
         </li>
     </ul>
 @else
@@ -27,15 +27,15 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="/#section_3">Who we are</a>
+            <a class="nav-link" href="/#section_3 {{ Request::is('#section_3') ? 'active' : '' }}">Who we are</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="/#section_4">Reviews</a>
+            <a class="nav-link click-scroll {{ Route::is('contact') ? 'active' : '' }}" href="/contact_us">Contact Us</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link click-scroll" href="/bookstore">Bookstore</a>
+            <a class="nav-link click-scroll {{ Route::is('bookstore') ? 'active' : '' }}" href="/bookstore">Bookstore</a>
         </li>
     </ul>
 @endif

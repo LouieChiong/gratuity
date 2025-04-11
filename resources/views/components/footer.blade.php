@@ -5,6 +5,9 @@
                 <p class="text-white"><b>Quick Links</b></p>
                 <ul class="list">
                     <li class="list-group-item text-sm text-white">
+                        <a href="/contact_us" class="btn link">Contact Us</a>
+                    </li>
+                    <li class="list-group-item text-sm text-white">
                         <a href="/#section_3" class="btn link">About Us</a>
                     </li>
                     <li class="list-group-item text-sm text-white">
