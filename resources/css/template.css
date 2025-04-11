@@ -323,6 +323,16 @@ strong {
   padding: 15px 25px;
 }
 
+.bookstore-btn {
+  border: 1px solid var(--custom-btn-bg-color);
+  border-radius: var(--border-radius-small);
+}
+
+.bookstore-btn:hover {
+  background: var(--custom-btn-bg-color);
+  border-radius: var(--border-radius-small);
+}
+
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
   color: var(--custom-btn-bg-color);
   margin-top: 8px;
@@ -358,22 +368,66 @@ strong {
 }
 
 /*---------------------------------------
-  NAVIGATION
+  SECONDARY NAVIGATION
 -----------------------------------------*/
-.navbar {
+.secondary-navbar {
   background: var(--white-color);
-  z-index: 9999;
-  padding-top: 0;
-  padding-bottom: 0;
+  position: fixed; /* Overlay the hero section */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Keep it above everything */
+  height: 100px !important;
+  transition: opacity 0.3s ease-in-out;
+  border-bottom:1px solid rgba(165, 165, 165, 0.514);
 }
 
-.custom-navbar {
+.secondary-navbar .logo {
+  width: 80px;
+  height: auto;
+}
+
+.secondary-navbar .logo-text {
+  color:var(--primary-color);
+}
+
+.secondary-navbar .navbar-nav .nav-link {
+  position: relative;
+  display: inline-block;
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+  padding: 15px 0;
+  text-decoration: none;
+}
+
+.secondary-navbar .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease-in-out;
+}
+
+.secondary-navbar .navbar-nav .nav-link:hover::after,
+.secondary-navbar .navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+
+/*---------------------------------------
+  PRIMARY  NAVIGATION
+-----------------------------------------*/
+.primary-navbar {
   position: absolute; /* Overlay the hero section */
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1000; /* Keep it above everything */
   transition: background 0.3s ease-in-out;
+  transition: opacity 1s ease-in-out;
   height: 100px !important;
   border-bottom:1px solid rgba(165, 165, 165, 0.514);
 }
@@ -397,17 +451,16 @@ strong {
   text-transform: uppercase;
 }
 
-.logo {
+.primary-navbar .logo {
   width: 80px;
   height: auto;
 }
 
-.logo-text {
+.primary-navbar .logo-text {
   color:white;
-
 }
 
-.navbar-nav .nav-link {
+.primary-navbar .navbar-nav .nav-link {
   position: relative;
   display: inline-block;
   color: var(--white-color);
@@ -417,7 +470,7 @@ strong {
   text-decoration: none;
 }
 
-.navbar-nav .nav-link::after {
+.primary-navbar .navbar-nav .nav-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -428,11 +481,10 @@ strong {
   transition: width 0.3s ease-in-out;
 }
 
-.navbar-nav .nav-link:hover::after,
-.navbar-nav .nav-link.active::after {
+.primary-navbar .navbar-nav .nav-link:hover::after,
+.primary-navbar .navbar-nav .nav-link.active::after {
   width: 100%;
 }
-
 
 /* .navbar-expand-lg .navbar-nav .nav-link {
   margin-right: 0;
@@ -517,9 +569,13 @@ strong {
   padding: 0;
   cursor: pointer;
   margin: 0;
-  width: 30px;
+  width: 200px;
   height: 35px;
   outline: none;
+  display: flex;
+  justify-content: space-between; /* Ensures items are spaced out */
+  align-items: end;
+  flex-direction: column-reverse;
 }
 
 .navbar-toggler:focus {
@@ -527,8 +583,18 @@ strong {
   box-shadow: none;
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+.primary-navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon,
+.primary-navbar .navbar-toggler .navbar-toggler-icon,
+.primary-navbar .navbar-toggler .navbar-toggler-icon:before,
+.primary-navbar .navbar-toggler .navbar-toggler-icon:after {
   background: white;
+}
+
+.secondary-navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon,
+.secondary-navbar .navbar-toggler .navbar-toggler-icon,
+.secondary-navbar .navbar-toggler .navbar-toggler-icon:before,
+.secondary-navbar .navbar-toggler .navbar-toggler-icon:after {
+  background: black;
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
@@ -548,7 +614,6 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: white;
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -680,7 +745,7 @@ strong {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7); /* Adjust the opacity for darkness */
+  background: rgba(0, 0, 0, 0.8); /* Adjust the opacity for darkness */
   z-index: 1;
 }
 
@@ -731,8 +796,8 @@ strong {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius-large);
   background-size: 60% 60%;
-  width: 80px;
-  height: 80px;
+  width: 30px;
+  height: 30px;
   opacity: 0;
   transition: all 0.5s;
 }
@@ -1463,6 +1528,14 @@ blockquote::before {
   background: var(--primary-color);
 }
 
+.site-footer .info {
+  font-size: 15px;
+}
+
+.site-footer .list-group-item a {
+  font-size: 15px;
+}
+
 
 /*---------------------------------------
   FOOTER MENU
@@ -1585,10 +1658,10 @@ blockquote::before {
     padding: 35px;
   }
 
-  /* .navbar {
+  .navbar {
     padding-top: 6px;
     padding-bottom: 6px;
-  } */
+  }
 
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 30px;
@@ -1809,8 +1882,6 @@ blockquote::before {
   }
 }
 
-
-
 .text-primary {
   color: var(--primary-color) !important;
 }
@@ -1831,6 +1902,33 @@ blockquote::before {
 }
 
 /*---------------------------------------
+  BOOKSTORE
+-----------------------------------------*/
+
+.book-item .book-title{
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.book-item .book-description {
+  font-size: 13px;
+  color: black;
+  width: 80%;
+  text-align: justify;
+}
+
+.card-title {
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.book-author {
+  font-size: 13px;
+  color: black;
+  font-weight: 600;
+}
+/*---------------------------------------
   COMMON UTILITIES
 -----------------------------------------*/
 
@@ -1843,4 +1941,45 @@ blockquote::before {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.text-xs {
+  font-size: 12px;
+}
+
+/*---------------------------------------
+  COMMON UTILITIES
+-----------------------------------------*/
+
+#services .service-block:hover .featured-block-image {
+  transform: scale(1.05);
+}
+
+#services .featured-block-text {
+  color: var(--primary-color);
+  font-size: var(--h5-font-size);
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+
+#services .featured-block-text:hover {
+  color: var(--custom-btn-bg-color);
+}
+
+#services .service-block{
+  color: var(--primary-color);
+  font-size: var(--h5-font-size);
+  margin-top: 20px;
+  transition: all 0.5s;
+  height: 530px;
+}
+
+.service-image {
+  height: 80px !important;
+  width: 100%;
+  object-fit: contain;
+}
+
+#services .service-btn {
+  font-size: 14px !important;
 }
