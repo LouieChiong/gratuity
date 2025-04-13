@@ -43,6 +43,14 @@ Route::get('/marketing', function () {
     return view('marketing');
 })->name('marketing');
 
+Route::get('/bookstore', function () {
+    return view('bookstore');
+})->name('bookstore');
+
+Route::get('/contact_us', function () {
+    return view('contact');
+})->name('contact');
+
 Route::post('/sendEmail', [EmailController::class, 'sendEmail'])->name('email');
 
 Route::post('process-transaction', [PayPalController::class, 'processTransaction'])->name('processTransaction');

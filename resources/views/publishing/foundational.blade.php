@@ -1,8 +1,28 @@
 @extends('components.layout')
 @section('content')
-<div class="d-flex text-center justify-content-center align-items-center row">
+<section class="hero-section hero-section-full-height">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12 p-0">
+                <div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="caption d-flex flex-column align-items-md-center align-items-lg-start w-75">
+                            <h1>FOUNDATIONAL</h1>
+                            <small>Services - publishing</small>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="carousel-overlay"></div> <!-- Overlay -->
+                            <img src="{{ Vite::asset('resources/images/background/image4.jpg') }}" class="carousel-image img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="d-flex text-center justify-content-center align-items-center row my-3 p-2">
     <div class="col-lg-8 col-md-8 gap-2">
-        <h2>FOUNDATIONAL</h2>
         <p style="text-align: justify;">
             Our most economical <b>FOUNDATIONAL </b> program is equipped with all the essentials for an efficient international publication. It also gives you the freedom and flexibility to choose add on services you’d like to get at anytime in the publication process.
         </p>
