@@ -45,7 +45,7 @@
                         <div class="carousel-item d-flex align-items-center justify-content-center row">
                             <div class="flex row book-item">
                                 <div class="col-md-5 d-flex justify-content-end">
-                                    <img src="{{ Vite::asset('resources/images/authors/summerfield.jpg') }}" class="d-flex" height="340" alt="...">
+                                    <img src="{{ Vite::asset('resources/images/authors/summer.jpg') }}" class="d-flex" height="340" alt="...">
                                 </div>
                                 <div class="col-md-7 d-flex flex-column align-items-start justify-content-start book-details">
                                     <h1 class="text-center book-title">Summerfield</h1>
@@ -134,7 +134,7 @@
                         <!-- Content at the top -->
                         <div>
                             <img class="card-img-top object-fit-contain" height="350"
-                                    src="{{ Vite::asset('resources/images/authors/summerfield.jpg') }}"
+                                    src="{{ Vite::asset('resources/images/authors/summer.jpg') }}"
                                     alt="Summerfield">
                             <p class="card-title mt-2">Summerfield</p>
                             <small class="book-author p-0">By: Dianne H. Lundy </small>
