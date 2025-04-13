@@ -10,7 +10,7 @@
     "isEntry": true
   },
   "resources/css/template.css": {
-    "file": "assets/template-C0AxVo8b.css",
+    "file": "assets/template-DEaJNDkQ.css",
     "src": "resources/css/template.css",
     "isEntry": true
   },
@@ -58,30 +58,6 @@
     "file": "assets/Artboard 6-DmeJQTu0.png",
     "src": "resources/images/Artboard 6.png"
   },
-  "resources/images/about.jpg": {
-    "file": "assets/about-CE3-L9v0.jpg",
-    "src": "resources/images/about.jpg"
-  },
-  "resources/images/authors/bound_providence.jpg": {
-    "file": "assets/bound_providence-COSzUBLb.jpg",
-    "src": "resources/images/authors/bound_providence.jpg"
-  },
-  "resources/images/authors/dreams_of_the_fathers.jpg": {
-    "file": "assets/dreams_of_the_fathers-B5l6_V0N.jpg",
-    "src": "resources/images/authors/dreams_of_the_fathers.jpg"
-  },
-  "resources/images/authors/nip_n_tuck.jpg": {
-    "file": "assets/nip_n_tuck-D-4rSdhT.jpg",
-    "src": "resources/images/authors/nip_n_tuck.jpg"
-  },
-  "resources/images/authors/return_of_summerfields.jpg": {
-    "file": "assets/return_of_summerfields-D0Qctsda.jpg",
-    "src": "resources/images/authors/return_of_summerfields.jpg"
-  },
-  "resources/images/authors/summerfield.jpg": {
-    "file": "assets/summerfield-BUorIq94.jpg",
-    "src": "resources/images/authors/summerfield.jpg"
-  },
   "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg": {
     "file": "assets/portrait-beautiful-young-woman-standing-grey-wall-CuwLOpO5.jpg",
     "src": "resources/images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg"
@@ -101,150 +77,6 @@
   "resources/images/avatar/studio-portrait-emotional-happy-funny.jpg": {
     "file": "assets/studio-portrait-emotional-happy-funny-CP4EZQo9.jpg",
     "src": "resources/images/avatar/studio-portrait-emotional-happy-funny.jpg"
-  },
-  "resources/images/background/book1.jpg": {
-    "file": "assets/book1-CUDNJGkb.jpg",
-    "src": "resources/images/background/book1.jpg"
-  },
-  "resources/images/background/book2.jpg": {
-    "file": "assets/book2-8U3i28NE.jpg",
-    "src": "resources/images/background/book2.jpg"
-  },
-  "resources/images/background/book3.jpg": {
-    "file": "assets/book3-DOdfLAGE.jpg",
-    "src": "resources/images/background/book3.jpg"
-  },
-  "resources/images/background/book4.jpg": {
-    "file": "assets/book4-Cz1d37qg.jpg",
-    "src": "resources/images/background/book4.jpg"
-  },
-  "resources/images/background/book5.jpg": {
-    "file": "assets/book5-DBPmt0D_.jpg",
-    "src": "resources/images/background/book5.jpg"
-  },
-  "resources/images/background/book6.jpg": {
-    "file": "assets/book6-5iYkWW4L.jpg",
-    "src": "resources/images/background/book6.jpg"
-  },
-  "resources/images/background/image4.jpg": {
-    "file": "assets/image4-h_uJBfio.jpg",
-    "src": "resources/images/background/image4.jpg"
-  },
-  "resources/images/background/image5.jpg": {
-    "file": "assets/image5-BvOPPPwI.jpg",
-    "src": "resources/images/background/image5.jpg"
-  },
-  "resources/images/background/image9.jpg": {
-    "file": "assets/image9-kW23s9WZ.jpg",
-    "src": "resources/images/background/image9.jpg"
-  },
-  "resources/images/bookstore/ALS-1.png": {
-    "file": "assets/ALS-1-LIOpEqcG.png",
-    "src": "resources/images/bookstore/ALS-1.png"
-  },
-  "resources/images/bookstore/Amazon.png": {
-    "file": "assets/Amazon-BRBJ-rFR.png",
-    "src": "resources/images/bookstore/Amazon.png"
-  },
-  "resources/images/bookstore/BarnesAndNoble.png": {
-    "file": "assets/BarnesAndNoble-CCXuyrYJ.png",
-    "src": "resources/images/bookstore/BarnesAndNoble.png"
-  },
-  "resources/images/bookstore/BooksExpress.png": {
-    "file": "assets/BooksExpress-tULktTzW.png",
-    "src": "resources/images/bookstore/BooksExpress.png"
-  },
-  "resources/images/bookstore/Booktopia.png": {
-    "file": "assets/Booktopia-BfuQ3kUo.png",
-    "src": "resources/images/bookstore/Booktopia.png"
-  },
-  "resources/images/bookstore/Ingram.png": {
-    "file": "assets/Ingram-BuieUfvV.png",
-    "src": "resources/images/bookstore/Ingram.png"
-  },
-  "resources/images/bookstore/Kobo.png": {
-    "file": "assets/Kobo-D8yVJ7He.png",
-    "src": "resources/images/bookstore/Kobo.png"
-  },
-  "resources/images/bookstore/PBS.png": {
-    "file": "assets/PBS-BSaqarO_.png",
-    "src": "resources/images/bookstore/PBS.png"
-  },
-  "resources/images/bookstore/adlibris.png": {
-    "file": "assets/adlibris-DKJqDnkr.png",
-    "src": "resources/images/bookstore/adlibris.png"
-  },
-  "resources/images/bookstore/agapea.png": {
-    "file": "assets/agapea-BuQvhToa.png",
-    "src": "resources/images/bookstore/agapea.png"
-  },
-  "resources/images/bookstore/bertrams.png": {
-    "file": "assets/bertrams-CU85AUiX.png",
-    "src": "resources/images/bookstore/bertrams.png"
-  },
-  "resources/images/bookstore/blackwell.png": {
-    "file": "assets/blackwell-BMxsq-5R.png",
-    "src": "resources/images/bookstore/blackwell.png"
-  },
-  "resources/images/bookstore/book-depository.png": {
-    "file": "assets/book-depository-Cr1n5x_R.png",
-    "src": "resources/images/bookstore/book-depository.png"
-  },
-  "resources/images/bookstore/chapters.png": {
-    "file": "assets/chapters-CiU2iLHx.png",
-    "src": "resources/images/bookstore/chapters.png"
-  },
-  "resources/images/bookstore/eden.png": {
-    "file": "assets/eden-CvJK9azv.png",
-    "src": "resources/images/bookstore/eden.png"
-  },
-  "resources/images/bookstore/fishpond.png": {
-    "file": "assets/fishpond-D1mvoJwH.png",
-    "src": "resources/images/bookstore/fishpond.png"
-  },
-  "resources/images/bookstore/foyles.png": {
-    "file": "assets/foyles-8q8BvTa2.png",
-    "src": "resources/images/bookstore/foyles.png"
-  },
-  "resources/images/bookstore/gardners.png": {
-    "file": "assets/gardners-BLv95afT.png",
-    "src": "resources/images/bookstore/gardners.png"
-  },
-  "resources/images/bookstore/jamesBennett.png": {
-    "file": "assets/jamesBennett-CfQ0aBIH.png",
-    "src": "resources/images/bookstore/jamesBennett.png"
-  },
-  "resources/images/bookstore/mallory.png": {
-    "file": "assets/mallory-DBxCLbHb.png",
-    "src": "resources/images/bookstore/mallory.png"
-  },
-  "resources/images/bookstore/peterpal.png": {
-    "file": "assets/peterpal-DbtZSFsf.png",
-    "src": "resources/images/bookstore/peterpal.png"
-  },
-  "resources/images/bookstore/super-book.png": {
-    "file": "assets/super-book-CXLlam7l.png",
-    "src": "resources/images/bookstore/super-book.png"
-  },
-  "resources/images/bookstore/target.png": {
-    "file": "assets/target-Bd--gDyO.png",
-    "src": "resources/images/bookstore/target.png"
-  },
-  "resources/images/bookstore/the-nile.png": {
-    "file": "assets/the-nile-CQK1AlcQ.png",
-    "src": "resources/images/bookstore/the-nile.png"
-  },
-  "resources/images/bookstore/trust-media.png": {
-    "file": "assets/trust-media-BQ3BNSkU.png",
-    "src": "resources/images/bookstore/trust-media.png"
-  },
-  "resources/images/bookstore/walmart.png": {
-    "file": "assets/walmart-Dim6wkdQ.png",
-    "src": "resources/images/bookstore/walmart.png"
-  },
-  "resources/images/bookstore/waterstone.png": {
-    "file": "assets/waterstone-FliYxqyh.png",
-    "src": "resources/images/bookstore/waterstone.png"
   },
   "resources/images/causes/african-woman-pouring-water-recipient-outdoors.jpg": {
     "file": "assets/african-woman-pouring-water-recipient-outdoors-DlslvWfR.jpg",
@@ -338,13 +170,25 @@
     "file": "assets/logo-UmL73zrH.png",
     "src": "resources/images/logo.png"
   },
-  "resources/images/marketing.png": {
-    "file": "assets/marketing-BWZEO9pa.png",
-    "src": "resources/images/marketing.png"
+  "resources/images/news/africa-humanitarian-aid-doctor.jpg": {
+    "file": "assets/africa-humanitarian-aid-doctor-KEdW9kEU.jpg",
+    "src": "resources/images/news/africa-humanitarian-aid-doctor.jpg"
   },
-  "resources/images/publishing.jpg": {
-    "file": "assets/publishing-BXSi9pb3.jpg",
-    "src": "resources/images/publishing.jpg"
+  "resources/images/news/close-up-happy-people-working-together.jpg": {
+    "file": "assets/close-up-happy-people-working-together-DO9_bHJ5.jpg",
+    "src": "resources/images/news/close-up-happy-people-working-together.jpg"
+  },
+  "resources/images/news/close-up-volunteer-oganizing-stuff-donation.jpg": {
+    "file": "assets/close-up-volunteer-oganizing-stuff-donation-0Fj1lLcp.jpg",
+    "src": "resources/images/news/close-up-volunteer-oganizing-stuff-donation.jpg"
+  },
+  "resources/images/news/medium-shot-people-collecting-foodstuff.jpg": {
+    "file": "assets/medium-shot-people-collecting-foodstuff-DPZeUqsn.jpg",
+    "src": "resources/images/news/medium-shot-people-collecting-foodstuff.jpg"
+  },
+  "resources/images/news/medium-shot-volunteers-with-clothing-donations.jpg": {
+    "file": "assets/medium-shot-volunteers-with-clothing-donations-ZhJCww1Y.jpg",
+    "src": "resources/images/news/medium-shot-volunteers-with-clothing-donations.jpg"
   },
   "resources/images/reviewer/candice.jpg": {
     "file": "assets/candice-IZqlDQ28.jpg",
