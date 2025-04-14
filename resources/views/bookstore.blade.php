@@ -89,6 +89,27 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="carousel-item d-flex align-items-center justify-content-center row">
+                            <div class="flex row book-item">
+                                <div class="col-md-5 d-flex justify-content-end">
+                                    <img src="{{ Vite::asset('resources/images/authors/my_perfect_partner.jpg') }}" class="d-flex" height="340" alt="...">
+                                </div>
+                                <div class="col-md-7 d-flex flex-column align-items-start justify-content-start book-details">
+                                    <h1 class="text-center book-title">My Perfect Partner</h1>
+                                    <small class="text-start">By: Anthony Vandyke </small>
+
+                                    <p class="book-description mt-3">
+                                        Wealth 101 is a comprehensive finance book, with information to assist anyone from beginners to the well accomplished finance person.
+                                        Ignorance is costly; therefore, we must learn the basics of finances in order to leave an inheritance for our children's children.
+                                        America the wealthiest nation in the world, we have no excuse to not be financially solvent. May goal is the challenge some and enlighten
+                                        others on the importance of being spiritually wealthy first, which creates the platform for financial wealth. Information is the key to
+                                        creating wealth beyond your current financial condition. If you are broke, this book is for you. If you are doing ok financially,
+                                        this book is for you.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -176,9 +197,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row flex g-3">
             <div class="col-md-6 col-lg-4 p-3" style="height: 580px">
                 <div class="card book-item h-100">
                     <div class="card-body d-flex flex-column">
@@ -217,6 +235,28 @@
                                 <img src="{{ Vite::asset('resources/images/bookstore/Amazon.png') }}" width="90" height="auto" title="Amazon" alt="">
                             </a>
                             <a target="_blank" class="bookstore-btn" href="https://www.barnesandnoble.com/w/bound-by-providence-carol-alford/1144074468">
+                                <img src="{{ Vite::asset('resources/images/bookstore/BarnesAndNoble.png') }}"  width="90" height="auto" title="Amazon" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3" style="height: 580px">
+                <div class="card book-item h-100">
+                    <div class="card-body d-flex flex-column">
+                        <!-- Content at the top -->
+                        <div>
+                            <img class="card-img-top object-fit-contain" height="350" src="{{ Vite::asset('resources/images/authors/my_perfect_partner.jpg') }}" alt="Bound by Providence">
+                            <p class="card-title mt-2">Bound by Providence</p>
+                            <small class="book-author p-0">By: Anthony Vandyke</small>
+                        </div>
+
+                        <!-- Buttons at the bottom -->
+                        <div class="mt-auto d-flex w-100 flex-wrap gap-2 pt-2">
+                            <a target="_blank" class="bookstore-btn me-3" href="https://www.amazon.com/28-4-22-Perfect-Partner-Opposites-Became/dp/1965386105?fbclid=IwY2xjawJp9gZleHRuA2FlbQIxMAABHq4OUwD_SXsrD3hsGnpSdBwuUT12hVCoAKinU3S8QflSpopG3S_iYNXtTg3Q_aem_M84KqaTqEh-7PneeABZDAw">
+                                <img src="{{ Vite::asset('resources/images/bookstore/Amazon.png') }}" width="90" height="auto" title="Amazon" alt="">
+                            </a>
+                            <a target="_blank" class="bookstore-btn" href="https://www.barnesandnoble.com/w/28-4-22-anthony-vandyke/1146401235?ean=9781965386101&fbclid=IwY2xjawJp92lleHRuA2FlbQIxMAABHkqh1i54f60XsmqdWdElQ4qlhLzAmeo4rbcPf8tUCO7U_EDqiX21qJoD5iW3_aem_jKQzWIs4sHqOrvYf4btVrg">
                                 <img src="{{ Vite::asset('resources/images/bookstore/BarnesAndNoble.png') }}"  width="90" height="auto" title="Amazon" alt="">
                             </a>
                         </div>
