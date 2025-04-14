@@ -43,7 +43,7 @@
                 <div class="p-3 pe-5" style="text-align: justify">
                     <p class="featured-block-text my-1"><strong>BOOK EXHIBITS</strong></p>
                     <p >
-                        Word Art Publishing helps you promote your book by participating in book shows and book fairs. Participating in book exhibits may be one of many forms of traditional marketing, however, it’s also the most effective way.
+                        Gratuity Global helps you promote your book by participating in book shows and book fairs. Participating in book exhibits may be one of many forms of traditional marketing, however, it’s also the most effective way.
                     </p>
                     <p >
                         Through these events, your work gains exposure to readers, librarians, bookstore owners, literary agents, and other publishing professionals. We handle the logistics — from booth design to promotional material — so you can focus on what matters most: connecting with readers.
