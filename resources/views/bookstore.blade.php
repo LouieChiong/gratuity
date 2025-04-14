@@ -84,6 +84,7 @@
                                     <small class="text-start">By: Dana James </small>
 
                                     <p class="book-description mt-3">
+                                        test
                                         All about "God given Rights & Freedom. Contrasting the Founders vision of government vs government of today in America. The importance of supporting Israel. Warning the American people not to allow efforts from radical politicians to "fundamentally transform America" into a nation espousing Socialism/Communist style of government undoing our Constitution and capitalism, and our God given Rights of Religion and freedom of speech, and right to bear arms, and basically all the rights "Natures God" affirms us.
                                     </p>
                                 </div>
