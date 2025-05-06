@@ -32,6 +32,8 @@
 
         @yield('scripts')
 
+        @include('components.privacy-policy')
+
         @vite([
             'resources/js/jquery.sticky.js',
             // 'resources/js/click-scroll.js',

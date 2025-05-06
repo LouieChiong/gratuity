@@ -461,6 +461,27 @@
             </div>
         </div>
     </section>
+
+    <div class="container" id="cookie-banner">
+        <div class="row justify-content-start">
+            <div class="col-lg-6 col-md-8 col-sm-12 col-12 mb-3 p-3 text-black rounded shadow-lg bg-white"
+                    style="z-index: 999 !important; position: fixed; bottom: 0; left: 0; margin: 1rem;">
+                <p class="mb-1 px-2" style="font-size: 15px">
+                    Gratuity is committed to protecting your privacy and any information will be shared with third parties/affiliates for marketing/promotional purposes.
+                    All the above categories exclude text message originator opt-in data and consent.
+                    We use cookies to enhance your experience. By continuing to use our site, you agree to our
+                    <button data-bs-toggle="modal" data-bs-target="#policyModal"
+                            class="border-0 bg-transparent text-primary text-decoration-underline p-0"
+                            style="cursor: pointer;">
+                        Privacy Policy
+                    </button>
+                </p>
+                <div class="d-flex justify-content-end mt-2 me-3">
+                    <button class="btn custom-btn btn-sm" onclick="acceptCookies()">Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
 @section('scripts')
