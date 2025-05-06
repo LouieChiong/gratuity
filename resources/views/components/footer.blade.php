@@ -19,6 +19,9 @@
                     <li class="list-group-item text-sm text-white">
                         <a href="/bookstore" class="btn link">Bookstore</a>
                     </li>
+                    <li class="list-group-item text-sm text-white">
+                        <button data-bs-toggle="modal" data-bs-target="#policyModal" class="btn link" style="font-size: 15px">Privacy Policy</button>
+                    </li>
                 </ul>
             </div>
 
