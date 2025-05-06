@@ -14,10 +14,10 @@ class EmailController extends Controller
         try {
             Mail::to('info@gratuityglobal.org')->send(new ContactEmail($request->except('_token')));
             Log::info('send success');
-            return redirect('/#section_4')->with(['message' => "Message successfully sent"]);
+            return redirect()->back()->with(['message' => "Message successfully sent"]);
         } catch(\Exception $e) {
             Log::info($e->getMessage());
-            return redirect('/#section_4')->with(['error' => "Message failed to sent"]);
+            return redirect()->back()->with(['error' => "Message failed to sent"]);
         }
     }
 }

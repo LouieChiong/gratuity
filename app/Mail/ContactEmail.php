@@ -33,7 +33,7 @@ class ContactEmail extends Mailable
         return $this->subject('Inquiry Message')
             ->from('info@gratuityglobal.org')
             ->view('mail.contact', [
-                'fullname' => $this->data['first_name'] . ' ' . $this->data['last_name'],
+                'fullname' => $this->data['name'],
                 'email' => $this->data['email'],
                 'content' => $this->data['message'],
                 'contact' => $this->data['contact_number'],
